@@ -626,5 +626,22 @@
   "qty": 1.511476,
   "time": 1786221900000,
   "note": "crowd z=5.2"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 65082.41,
+  "qty": 1.482727,
+  "time": 1786222500000,
+  "note": "absorb 3.06x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 65046.5,
+  "qty": 1.511476,
+  "time": 1786223400000,
+  "pnl": -277.68,
+  "note": "lost 20-MA"
  }
 ]
