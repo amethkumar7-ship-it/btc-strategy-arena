@@ -346,5 +346,21 @@
   "time": 1786170600000,
   "pnl": -269.86,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 64975.99,
+  "qty": 1.501289,
+  "time": 1786177500000,
+  "note": "absorb 2.61x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 65006.0,
+  "qty": 1.502831,
+  "time": 1786177800000,
+  "note": "taker-buy 56.0%"
  }
 ]
