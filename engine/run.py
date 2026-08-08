@@ -27,7 +27,7 @@ STRATEGIES = ["TAKER_TIDE", "CROWD_SURGE", "WICK_ABSORB", "ENTROPY_DRIFT", "RANG
 
 # ---------------------------------------------------------------- data fetch
 def fetch_klines(limit=200):
-    url = (f"https://data-api.binance.vision/api/v3/klines?symbol={SYMBOL}""
+    url = (f"https://data-api.binance.vision/api/v3/klines?symbol={SYMBOL}"
            f"&interval={INTERVAL}&limit={limit}")
     with urllib.request.urlopen(url, timeout=20) as r:
         raw = json.loads(r.read().decode())
