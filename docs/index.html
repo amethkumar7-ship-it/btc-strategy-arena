@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTC Strategy Arena — 5 algorithms, $100K each, trading live</title>
+<meta name="description" content="Five original Bitcoin trading algorithms battle live with $100,000 virtual capital each. Every trade timestamped and public. Long-only, 5-minute candles, real fees.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --ink:#101418;         /* page ground */
+  --panel:#171d24;       /* card ground */
+  --line:#252d37;        /* hairlines */
+  --text:#e8e4da;        /* warm paper text */
+  --dim:#8b93a0;         /* secondary text */
+  --amber:#f2a33c;       /* BTC-derived accent */
+  --up:#5fc88f;          /* profit */
+  --down:#e0685f;        /* loss */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--ink);color:var(--text);font-family:'Space Grotesk',sans-serif;line-height:1.5}
+.mono{font-family:'JetBrains Mono',monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+
+/* header */
+header{border-bottom:1px solid var(--line);padding:26px 0 22px}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.brand h1{font-size:1.5rem;font-weight:700;letter-spacing:.01em}
+.brand h1 .btc{color:var(--amber)}
+.live{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;color:var(--dim);
+  font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.12em}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--up);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.sub{color:var(--dim);margin-top:8px;font-size:.95rem;max-width:640px}
+.pricebar{display:flex;gap:28px;margin-top:18px;flex-wrap:wrap}
+.stat .k{font-size:.72rem;color:var(--dim);text-transform:uppercase;letter-spacing:.12em}
+.stat .v{font-size:1.15rem;font-weight:600;margin-top:2px}
+
+/* sections */
+section{padding:34px 0 6px}
+h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.16em;color:var(--dim);
+  margin-bottom:16px;font-weight:500}
+
+/* leaderboard: signature race bars */
+.board{display:flex;flex-direction:column;gap:10px}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:14px 16px;display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;
+  transition:transform .6s ease}
+.rank{font-size:1.05rem;color:var(--dim);font-weight:600}
+.row.first .rank{color:var(--amber)}
+.rname{font-weight:700;font-size:1.02rem}
+.rmeta{font-size:.78rem;color:var(--dim);margin-top:2px}
+.track{grid-column:1/-1;height:6px;background:var(--line);border-radius:3px;position:relative;overflow:visible}
+.zero{position:absolute;left:50%;top:-3px;width:1px;height:12px;background:var(--dim);opacity:.5}
+.bar{position:absolute;top:0;height:6px;border-radius:3px;transition:all .8s ease}
+.bar.up{background:var(--up);left:50%}
+.bar.down{background:var(--down);right:50%}
+.req{text-align:right}
+.req .eq{font-size:1.1rem;font-weight:600}
+.req .pnl{font-size:.85rem;margin-top:1px}
+.pos{color:var(--up)}.neg{color:var(--down)}
+.badge{display:inline-block;font-size:.68rem;padding:2px 7px;border-radius:3px;
+  background:rgba(242,163,60,.12);color:var(--amber);border:1px solid rgba(242,163,60,.3);
+  margin-left:8px;vertical-align:middle;font-family:'JetBrains Mono',monospace}
+
+/* chart */
+.chartbox{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:18px}
+
+/* trades */
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{text-align:left;color:var(--dim);font-weight:500;text-transform:uppercase;
+  font-size:.7rem;letter-spacing:.1em;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:8px 10px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+.tbl{background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow-x:auto}
+.side-b{color:var(--up);font-weight:600}.side-s{color:var(--down);font-weight:600}
+
+/* strategy cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:18px}
+.card h3{font-size:1rem;margin-bottom:6px}
+.card p{font-size:.86rem;color:var(--dim)}
+.card .edge{margin-top:10px;font-size:.75rem;color:var(--amber);
+  font-family:'JetBrains Mono',monospace}
+
+/* ads */
+.adslot{margin:30px 0;min-height:90px;border:1px dashed var(--line);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.15em}
+
+/* footer */
+footer{border-top:1px solid var(--line);margin-top:44px;padding:22px 0 34px;
+  color:var(--dim);font-size:.8rem}
+footer p+p{margin-top:8px}
+
+@media (max-width:640px){
+  .row{grid-template-columns:26px 1fr auto;padding:12px}
+  .brand h1{font-size:1.2rem}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <h1><span class="btc">₿</span> Strategy Arena</h1>
+      <span class="live"><span class="dot"></span> trading live</span>
+    </div>
+    <p class="sub">Five original algorithms. $100,000 virtual capital each. Long-only Bitcoin,
+      5-minute candles, real exchange fees. Every trade timestamped and public — nothing
+      deleted, nothing backfilled.</p>
+    <div class="pricebar mono">
+      <div class="stat"><div class="k">BTC / USDT</div><div class="v" id="px">—</div></div>
+      <div class="stat"><div class="k">Combined P&amp;L</div><div class="v" id="combined">—</div></div>
+      <div class="stat"><div class="k">Total trades</div><div class="v" id="ttrades">—</div></div>
+      <div class="stat"><div class="k">Last update</div><div class="v" id="upd" style="font-size:.9rem">—</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Leaderboard</h2>
+    <div class="board" id="board"></div>
+  </section>
+
+  <!-- AdSense slot: replace this div with your ad unit code after approval -->
+  <div class="adslot" id="ad-top">advertisement</div>
+
+  <section>
+    <h2>Equity — all five, from $100K</h2>
+    <div class="chartbox"><canvas id="eqchart" height="110"></canvas></div>
+  </section>
+
+  <section>
+    <h2>Latest trades</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Time (UTC)</th><th>Strategy</th><th>Side</th>
+          <th>Price</th><th>P&amp;L</th><th>Note</th></tr></thead>
+        <tbody id="trows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- AdSense slot: replace this div with your ad unit code after approval -->
+  <div class="adslot" id="ad-mid">advertisement</div>
+
+  <section>
+    <h2>The five algorithms</h2>
+    <div class="cards">
+      <div class="card"><h3>TAKER_TIDE</h3>
+        <p>Reads the order flow behind each candle: what share of volume was aggressive
+        buying. When buyers persistently lift offers, it follows them.</p>
+        <div class="edge">signal: taker-buy ratio &gt; 56% over 6 candles</div></div>
+      <div class="card"><h3>CROWD_SURGE</h3>
+        <p>Watches the number of trades — not volume. A statistical surge in participation
+        on a green candle means a crowd just arrived.</p>
+        <div class="edge">signal: trade-count z-score &gt; 2.0 above 20-MA</div></div>
+      <div class="card"><h3>WICK_ABSORB</h3>
+        <p>Candle anatomy. When lower wicks dominate for an hour, sellers keep getting
+        absorbed at the bids — someone is accumulating.</p>
+        <div class="edge">signal: lower/upper wick ratio &gt; 1.5 over 12 candles</div></div>
+      <div class="card"><h3>ENTROPY_DRIFT</h3>
+        <p>Information theory. Shannon entropy of the up/down sequence measures how
+        ordered the market is. Low entropy plus upward drift = a trend worth riding.</p>
+        <div class="edge">signal: H &lt; 0.90 bits with positive 2-hour drift</div></div>
+      <div class="card"><h3>RANGE_COIL</h3>
+        <p>Compression precedes release. The narrowest candle in an hour is the coil;
+        a volume-backed break of its high is the spring.</p>
+        <div class="edge">signal: NR-12 coil break on above-median volume</div></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>How it works:</strong> an automated engine wakes every 5 minutes, pulls closed
+    BTCUSDT candles from Binance, evaluates each algorithm, and executes virtual trades at
+    candle-close prices. Take-profit +0.8%, stop-loss −0.5%, 0.1% fee charged on every side.
+    The full trade history is committed to a public repository — timestamps cannot be faked
+    after the fact.</p>
+    <p>Simulated performance with virtual capital. Nothing here is investment advice, and no
+    real orders are placed. Crypto is volatile — algorithms that win this month can lose the
+    next.</p>
+  </div>
+</footer>
+
+<script>
+const STRATS=["TAKER_TIDE","CROWD_SURGE","WICK_ABSORB","ENTROPY_DRIFT","RANGE_COIL"];
+const COLORS={TAKER_TIDE:"#f2a33c",CROWD_SURGE:"#5fc88f",WICK_ABSORB:"#7aa7e8",
+  ENTROPY_DRIFT:"#c98fe0",RANGE_COIL:"#e0685f"};
+const START=100000;
+const fmt=n=>"$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmt0=n=>"$"+Math.round(n).toLocaleString("en-US");
+let chart=null;
+
+async function j(p){const r=await fetch(p+"?v="+Date.now());if(!r.ok)throw 0;return r.json();}
+
+async function refresh(){
+  let state,trades,equity;
+  try{[state,trades,equity]=await Promise.all([
+    j("data/state.json"),j("data/trades.json"),j("data/equity.json")]);}
+  catch(e){document.getElementById("board").innerHTML=
+    '<div class="row"><div></div><div>Waiting for the first engine run — data appears within 5 minutes of launch.</div><div></div></div>';return;}
+
+  // header stats
+  document.getElementById("px").textContent=fmt0(state.meta.last_price);
+  const rows=STRATS.map(s=>({name:s,...state.strategies[s]}))
+    .sort((a,b)=>b.equity-a.equity);
+  const comb=rows.reduce((a,r)=>a+r.equity-START,0);
+  const ce=document.getElementById("combined");
+  ce.textContent=(comb>=0?"+":"")+fmt0(comb).replace("$-","-$");
+  ce.className="v mono "+(comb>=0?"pos":"neg");
+  document.getElementById("ttrades").textContent=rows.reduce((a,r)=>a+r.trades,0);
+  document.getElementById("upd").textContent=
+    new Date(state.meta.last_run).toUTCString().slice(5,22);
+
+  // leaderboard race bars
+  const maxAbs=Math.max(1000,...rows.map(r=>Math.abs(r.equity-START)));
+  document.getElementById("board").innerHTML=rows.map((r,i)=>{
+    const pnl=r.equity-START, pct=Math.min(50,Math.abs(pnl)/maxAbs*50);
+    const wr=r.trades?Math.round(r.wins/r.trades*100):0;
+    return `<div class="row ${i===0?'first':''}">
+      <div class="rank mono">${i+1}</div>
+      <div><span class="rname">${r.name}</span>
+        ${r.position?'<span class="badge">IN POSITION</span>':''}
+        <div class="rmeta mono">${r.trades} trades · ${wr}% win rate</div></div>
+      <div class="req mono"><div class="eq">${fmt(r.equity)}</div>
+        <div class="pnl ${pnl>=0?'pos':'neg'}">${pnl>=0?'+':''}${fmt(pnl).replace("$-","-$")}</div></div>
+      <div class="track"><span class="zero"></span>
+        <span class="bar ${pnl>=0?'up':'down'}" style="width:${pct}%"></span></div>
+    </div>`;}).join("");
+
+  // equity chart
+  const labels=equity.map(p=>new Date(p.t).toUTCString().slice(5,22));
+  const ds=STRATS.map(s=>({label:s,data:equity.map(p=>p[s]),
+    borderColor:COLORS[s],borderWidth:1.6,pointRadius:0,tension:.25}));
+  if(chart){chart.data.labels=labels;chart.data.datasets=ds;chart.update("none");}
+  else chart=new Chart(document.getElementById("eqchart"),{type:"line",
+    data:{labels,datasets:ds},
+    options:{responsive:true,interaction:{mode:"index",intersect:false},
+      plugins:{legend:{labels:{color:"#8b93a0",boxWidth:12,font:{family:"'JetBrains Mono'",size:10}}}},
+      scales:{x:{ticks:{color:"#8b93a0",maxTicksLimit:8,font:{size:10}},grid:{color:"#252d37"}},
+        y:{ticks:{color:"#8b93a0",callback:v=>"$"+(v/1000)+"K",font:{size:10}},grid:{color:"#252d37"}}}}});
+
+  // trades table (latest 40, newest first)
+  document.getElementById("trows").innerHTML=trades.slice(-40).reverse().map(t=>{
+    const pnl=t.pnl!==undefined?
+      `<span class="${t.pnl>=0?'pos':'neg'} mono">${t.pnl>=0?'+':''}${t.pnl.toFixed(2)}</span>`:"—";
+    return `<tr><td class="mono">${new Date(t.time).toUTCString().slice(5,25)}</td>
+      <td>${t.strategy}</td>
+      <td class="${t.side==='BUY'?'side-b':'side-s'}">${t.side}</td>
+      <td class="mono">${fmt0(t.price)}</td><td>${pnl}</td>
+      <td style="color:var(--dim)">${t.note||""}</td></tr>`;}).join("");
+}
+refresh();
+setInterval(refresh,60000);
+</script>
+</body>
+</html>
