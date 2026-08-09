@@ -1068,5 +1068,23 @@
   "time": 1786313100000,
   "pnl": 15.58,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 65092.62,
+  "qty": 1.497708,
+  "time": 1786314600000,
+  "pnl": -411.08,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 64990.11,
+  "qty": 1.506311,
+  "time": 1786314900000,
+  "pnl": -285.62,
+  "note": "below coil low"
  }
 ]
