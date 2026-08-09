@@ -1009,5 +1009,22 @@
   "time": 1786292400000,
   "pnl": -95.84,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 65239.15,
+  "qty": 1.456356,
+  "time": 1786296300000,
+  "note": "taker-buy 60.7%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 65229.23,
+  "qty": 1.456356,
+  "time": 1786296900000,
+  "pnl": -204.55,
+  "note": "tide flipped"
  }
 ]
