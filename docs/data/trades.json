@@ -915,5 +915,23 @@
   "time": 1786274700000,
   "pnl": -192.08,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 64964.01,
+  "qty": 1.464184,
+  "time": 1786276200000,
+  "pnl": -210.84,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 64919.93,
+  "qty": 1.512343,
+  "time": 1786276800000,
+  "pnl": -283.19,
+  "note": "below coil low"
  }
 ]
