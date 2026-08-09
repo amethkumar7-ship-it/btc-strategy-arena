@@ -933,5 +933,29 @@
   "time": 1786276800000,
   "pnl": -283.19,
   "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 64938.53,
+  "qty": 1.461831,
+  "time": 1786278900000,
+  "note": "taker-buy 56.0%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 64960.11,
+  "qty": 1.534882,
+  "time": 1786280100000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 65049.62,
+  "qty": 1.506311,
+  "time": 1786281300000,
+  "note": "coil break"
  }
 ]
