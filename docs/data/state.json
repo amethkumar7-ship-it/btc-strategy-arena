@@ -7,16 +7,16 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-08-10T22:52:47.047514+00:00",
-  "last_candle": 1786401900000,
-  "last_price": 63997.99
+  "last_run": "2026-08-10T23:21:38.772006+00:00",
+  "last_candle": 1786403700000,
+  "last_price": 63985.57
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 91870.89500347333,
+   "cash": 91671.19861298628,
    "position": null,
-   "equity": 91870.9,
-   "trades": 34,
+   "equity": 91671.2,
+   "trades": 35,
    "wins": 3
   },
   "CROWD_SURGE": {

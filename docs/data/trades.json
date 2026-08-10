@@ -1426,5 +1426,22 @@
   "time": 1786397400000,
   "pnl": -174.01,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 63995.2,
+  "qty": 1.434155,
+  "time": 1786402800000,
+  "note": "taker-buy 56.7%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63984.0,
+  "qty": 1.434155,
+  "time": 1786403400000,
+  "pnl": -199.7,
+  "note": "tide flipped"
  }
 ]
