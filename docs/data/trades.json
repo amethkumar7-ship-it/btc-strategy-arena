@@ -1086,5 +1086,21 @@
   "time": 1786314900000,
   "pnl": -285.62,
   "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 64896.0,
+  "qty": 1.460908,
+  "time": 1786320000000,
+  "note": "taker-buy 57.3%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 65144.67,
+  "qty": 1.49352,
+  "time": 1786320600000,
+  "note": "crowd z=5.0"
  }
 ]
