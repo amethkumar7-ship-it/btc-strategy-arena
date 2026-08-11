@@ -1748,5 +1748,14 @@
   "qty": 1.566676,
   "time": 1786480500000,
   "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63637.32,
+  "qty": 1.408468,
+  "time": 1786483800000,
+  "pnl": 188.49,
+  "note": "tide flipped"
  }
 ]
