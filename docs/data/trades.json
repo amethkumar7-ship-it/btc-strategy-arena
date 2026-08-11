@@ -1536,5 +1536,22 @@
   "time": 1786427400000,
   "pnl": -224.9,
   "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 63984.01,
+  "qty": 1.474272,
+  "time": 1786431900000,
+  "pnl": -265.48,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 63995.11,
+  "qty": 1.499213,
+  "time": 1786433400000,
+  "note": "crowd z=2.0"
  }
 ]
