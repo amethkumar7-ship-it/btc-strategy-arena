@@ -1740,5 +1740,13 @@
   "qty": 1.408468,
   "time": 1786476600000,
   "note": "taker-buy 66.1%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 63694.37,
+  "qty": 1.566676,
+  "time": 1786480500000,
+  "note": "H=0.87 bits"
  }
 ]
