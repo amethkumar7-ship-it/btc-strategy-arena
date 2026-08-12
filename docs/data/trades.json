@@ -2054,5 +2054,23 @@
   "qty": 1.480221,
   "time": 1786535100000,
   "note": "coil break"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 64475.76240000001,
+  "qty": 1.49332,
+  "time": 1786537800000,
+  "pnl": 572.25,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 64073.97,
+  "qty": 1.480221,
+  "time": 1786538100000,
+  "pnl": -432.51,
+  "note": "below coil low"
  }
 ]
