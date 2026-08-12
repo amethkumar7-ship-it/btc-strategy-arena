@@ -2105,5 +2105,31 @@
   "time": 1786555200000,
   "pnl": -333.83,
   "note": "below coil low"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 63414.0,
+  "qty": 1.487378,
+  "time": 1786561200000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 63370.71,
+  "qty": 1.487378,
+  "time": 1786562400000,
+  "pnl": -253.06,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63380.38,
+  "qty": 1.393436,
+  "time": 1786562700000,
+  "pnl": -345.48,
+  "note": "tide flipped"
  }
 ]
