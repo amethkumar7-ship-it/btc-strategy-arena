@@ -2445,5 +2445,23 @@
   "time": 1786632300000,
   "pnl": 371.11,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 63825.67,
+  "qty": 1.488819,
+  "time": 1786633500000,
+  "pnl": -356.33,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63826.21,
+  "qty": 1.36662,
+  "time": 1786633800000,
+  "pnl": -184.66,
+  "note": "tide flipped"
  }
 ]
