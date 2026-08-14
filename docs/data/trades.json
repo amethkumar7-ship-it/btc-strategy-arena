@@ -2828,5 +2828,13 @@
   "qty": 1.350995,
   "time": 1786731900000,
   "note": "taker-buy 59.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 62976.01,
+  "qty": 1.457799,
+  "time": 1786738800000,
+  "note": "absorb 2.42x"
  }
 ]
