@@ -2845,5 +2845,14 @@
   "time": 1786742100000,
   "pnl": -301.74,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 62873.25,
+  "qty": 1.350995,
+  "time": 1786743000000,
+  "pnl": -392.52,
+  "note": "tide flipped"
  }
 ]
