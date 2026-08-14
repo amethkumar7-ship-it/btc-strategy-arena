@@ -2862,5 +2862,13 @@
   "qty": 1.478419,
   "time": 1786746600000,
   "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 62883.99,
+  "qty": 1.455138,
+  "time": 1786747200000,
+  "note": "absorb 2.31x"
  }
 ]
