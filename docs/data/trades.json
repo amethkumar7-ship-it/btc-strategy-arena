@@ -3269,5 +3269,23 @@
   "qty": 1.486028,
   "time": 1786820400000,
   "note": "crowd z=3.1"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 63078.62,
+  "qty": 1.486028,
+  "time": 1786824600000,
+  "pnl": -168.79,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63078.63,
+  "qty": 1.313724,
+  "time": 1786824900000,
+  "pnl": -149.21,
+  "note": "tide flipped"
  }
 ]
