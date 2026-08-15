@@ -3303,5 +3303,31 @@
   "qty": 1.432463,
   "time": 1786826700000,
   "note": "absorb 33.80x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 63104.56,
+  "qty": 1.432463,
+  "time": 1786828200000,
+  "pnl": -174.28,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 63104.56,
+  "qty": 1.310655,
+  "time": 1786828500000,
+  "pnl": -159.46,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 63154.97,
+  "qty": 1.481264,
+  "time": 1786829100000,
+  "note": "crowd z=3.6"
  }
 ]
