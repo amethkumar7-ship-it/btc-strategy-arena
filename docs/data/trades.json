@@ -3244,5 +3244,14 @@
   "time": 1786812600000,
   "pnl": -177.14,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 63100.68,
+  "qty": 1.435315,
+  "time": 1786814100000,
+  "pnl": -101.46,
+  "note": "upper wicks dominate"
  }
 ]
