@@ -3082,5 +3082,14 @@
   "qty": 1.331415,
   "time": 1786785900000,
   "note": "taker-buy 56.2%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 63042.46,
+  "qty": 1.571224,
+  "time": 1786787400000,
+  "pnl": -225.54,
+  "note": "entropy rose"
  }
 ]
