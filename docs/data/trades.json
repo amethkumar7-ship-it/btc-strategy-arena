@@ -3806,5 +3806,29 @@
   "time": 1786919700000,
   "pnl": -563.75,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 62913.7,
+  "qty": 1.415428,
+  "time": 1786920900000,
+  "note": "absorb 5.36x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 62913.7,
+  "qty": 1.486213,
+  "time": 1786920900000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 62931.37,
+  "qty": 1.271511,
+  "time": 1786921200000,
+  "note": "taker-buy 59.4%"
  }
 ]
