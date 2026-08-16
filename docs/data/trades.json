@@ -3669,5 +3669,13 @@
   "time": 1786888500000,
   "pnl": -201.44,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 63100.9,
+  "qty": 1.470056,
+  "time": 1786890000000,
+  "note": "crowd z=5.2"
  }
 ]
