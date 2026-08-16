@@ -3567,5 +3567,13 @@
   "time": 1786870200000,
   "pnl": -152.23,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 63072.43,
+  "qty": 1.564377,
+  "time": 1786872000000,
+  "note": "H=0.87 bits"
  }
 ]
