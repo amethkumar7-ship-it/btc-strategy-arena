@@ -3592,5 +3592,14 @@
   "time": 1786877100000,
   "pnl": -253.84,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 62987.62,
+  "qty": 1.564377,
+  "time": 1786879800000,
+  "pnl": -329.98,
+  "note": "entropy rose"
  }
 ]
