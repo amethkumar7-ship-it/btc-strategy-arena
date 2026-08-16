@@ -3627,5 +3627,29 @@
   "time": 1786883400000,
   "pnl": -198.85,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 63021.98,
+  "qty": 1.418182,
+  "time": 1786884900000,
+  "note": "absorb 99.60x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 63054.34,
+  "qty": 1.286837,
+  "time": 1786885500000,
+  "note": "taker-buy 56.1%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 63063.0,
+  "qty": 1.559383,
+  "time": 1786886700000,
+  "note": "H=0.87 bits"
  }
 ]
