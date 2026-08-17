@@ -4197,5 +4197,13 @@
   "time": 1786985400000,
   "pnl": -130.24,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 64260.25,
+  "qty": 1.435232,
+  "time": 1786986900000,
+  "note": "crowd z=3.4"
  }
 ]
