@@ -4103,5 +4103,14 @@
   "time": 1786967400000,
   "pnl": -301.51,
   "note": "below coil low"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 63620.57,
+  "qty": 1.459907,
+  "time": 1786968000000,
+  "pnl": 20.58,
+  "note": "lost 20-MA"
  }
 ]
