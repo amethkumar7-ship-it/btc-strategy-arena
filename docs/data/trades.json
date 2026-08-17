@@ -4027,5 +4027,13 @@
   "time": 1786950900000,
   "pnl": -387.22,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 63385.5,
+  "qty": 1.454403,
+  "time": 1786956600000,
+  "note": "coil break"
  }
 ]
