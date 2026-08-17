@@ -4120,5 +4120,13 @@
   "qty": 1.455063,
   "time": 1786973400000,
   "note": "crowd z=8.9"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 63699.42,
+  "qty": 1.248047,
+  "time": 1786975800000,
+  "note": "taker-buy 56.4%"
  }
 ]
