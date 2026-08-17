@@ -4290,5 +4290,13 @@
   "qty": 1.421588,
   "time": 1787006100000,
   "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 64486.79,
+  "qty": 1.230888,
+  "time": 1787009100000,
+  "note": "taker-buy 56.7%"
  }
 ]
