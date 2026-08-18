@@ -4537,5 +4537,22 @@
   "time": 1787054700000,
   "pnl": -180.96,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 64303.82,
+  "qty": 1.413658,
+  "time": 1787056200000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 64260.14,
+  "qty": 1.413658,
+  "time": 1787056500000,
+  "pnl": -243.59,
+  "note": "below coil low"
  }
 ]
