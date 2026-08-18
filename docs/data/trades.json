@@ -4528,5 +4528,14 @@
   "time": 1787053800000,
   "pnl": 8.57,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 64300.01,
+  "qty": 1.427802,
+  "time": 1787054700000,
+  "pnl": -180.96,
+  "note": "lost 20-MA"
  }
 ]
