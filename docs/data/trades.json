@@ -4749,5 +4749,22 @@
   "time": 1787097000000,
   "pnl": -139.78,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 64632.0,
+  "qty": 1.400159,
+  "time": 1787097600000,
+  "pnl": -346.46,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 64472.01,
+  "qty": 1.209993,
+  "time": 1787103000000,
+  "note": "taker-buy 59.9%"
  }
 ]
