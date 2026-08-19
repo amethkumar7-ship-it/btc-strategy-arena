@@ -5310,5 +5310,13 @@
   "qty": 1.309514,
   "time": 1787165700000,
   "note": "absorb 2.03x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 68399.99,
+  "qty": 1.110443,
+  "time": 1787168400000,
+  "note": "taker-buy 58.1%"
  }
 ]
