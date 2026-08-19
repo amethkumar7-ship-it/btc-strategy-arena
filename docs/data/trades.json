@@ -5302,5 +5302,13 @@
   "time": 1787159100000,
   "pnl": -545.6,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 68395.99,
+  "qty": 1.309514,
+  "time": 1787165700000,
+  "note": "absorb 2.03x"
  }
 ]
