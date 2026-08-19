@@ -5343,5 +5343,40 @@
   "qty": 1.303296,
   "time": 1787170500000,
   "note": "absorb 1.70x"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 68671.35,
+  "qty": 1.427613,
+  "time": 1787172000000,
+  "pnl": -134.06,
+  "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68947.18992,
+  "qty": 1.110443,
+  "time": 1787172600000,
+  "pnl": 455.04,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 69114.7,
+  "qty": 1.346653,
+  "time": 1787172600000,
+  "note": "crowd z=14.6"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 69167.43792000001,
+  "qty": 1.303296,
+  "time": 1787172600000,
+  "pnl": 535.78,
+  "note": "take-profit +0.8%"
  }
 ]
