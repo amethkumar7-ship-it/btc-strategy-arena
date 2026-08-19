@@ -5378,5 +5378,22 @@
   "time": 1787172600000,
   "pnl": 535.78,
   "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 69667.6176,
+  "qty": 1.346653,
+  "time": 1787173500000,
+  "pnl": 557.6,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 69639.28,
+  "qty": 1.404956,
+  "time": 1787174700000,
+  "note": "H=0.87 bits"
  }
 ]
