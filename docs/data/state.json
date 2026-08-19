@@ -7,39 +7,55 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-08-19T12:02:56.010087+00:00",
-  "last_candle": 1787140500000,
-  "last_price": 64515.63
+  "last_run": "2026-08-19T13:02:33.510889+00:00",
+  "last_candle": 1787144100000,
+  "last_price": 64882.15
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 76906.6880459313,
-   "position": null,
-   "equity": 76906.69,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.183025868780999,
+    "entry": 64943.45,
+    "entry_t": 1787143200000,
+    "fee_in": 76.9066880459313,
+    "meta": {
+     "note": "taker-buy 56.2%"
+    }
+   },
+   "equity": 76757.26,
    "trades": 126,
    "wins": 17
   },
   "CROWD_SURGE": {
-   "cash": 91187.26629548374,
-   "position": null,
-   "equity": 91187.27,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.408786489746628,
+    "entry": 64662.8,
+    "entry_t": 1787142600000,
+    "fee_in": 91.18726629548375,
+    "meta": {
+     "note": "crowd z=5.1"
+    }
+   },
+   "equity": 91405.1,
    "trades": 46,
    "wins": 5
   },
   "WICK_ABSORB": {
    "cash": 0.0,
    "position": {
-    "qty": 1.3673900743782275,
-    "entry": 64397.02,
-    "entry_t": 1787135100000,
-    "fee_in": 88.14398995749369,
+    "qty": 1.3631368324834445,
+    "entry": 64984.57,
+    "entry_t": 1787143500000,
+    "fee_in": 88.67153244254122,
     "meta": {
-     "note": "absorb 3.07x"
+     "note": "absorb 3.04x"
     }
    },
-   "equity": 88218.03,
-   "trades": 73,
-   "wins": 10
+   "equity": 88443.25,
+   "trades": 74,
+   "wins": 11
   },
   "ENTROPY_DRIFT": {
    "cash": 98236.39829119608,
@@ -49,9 +65,18 @@
    "wins": 1
   },
   "RANGE_COIL": {
-   "cash": 90404.57457805534,
-   "position": null,
-   "equity": 90404.57,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.396694390027609,
+    "entry": 64662.8,
+    "entry_t": 1787142600000,
+    "fee_in": 90.40457457805535,
+    "meta": {
+     "note": "coil break",
+     "coil_low": 64493.47
+    }
+   },
+   "equity": 90620.53,
    "trades": 34,
    "wins": 1
   }
