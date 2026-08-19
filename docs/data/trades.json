@@ -5275,5 +5275,32 @@
   "qty": 1.113184,
   "time": 1787155200000,
   "note": "taker-buy 56.2%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 68465.27,
+  "qty": 1.36215,
+  "time": 1787158500000,
+  "pnl": -223.26,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68368.24100000001,
+  "qty": 1.113184,
+  "time": 1787158800000,
+  "pnl": -535.12,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 68311.28,
+  "qty": 1.437103,
+  "time": 1787159100000,
+  "pnl": -545.6,
+  "note": "entropy rose"
  }
 ]
