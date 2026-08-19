@@ -4766,5 +4766,14 @@
   "qty": 1.209993,
   "time": 1787103000000,
   "note": "taker-buy 59.9%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 64415.72,
+  "qty": 1.209993,
+  "time": 1787103600000,
+  "pnl": -224.14,
+  "note": "tide flipped"
  }
 ]
