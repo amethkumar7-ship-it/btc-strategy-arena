@@ -5335,5 +5335,13 @@
   "qty": 1.427613,
   "time": 1787169900000,
   "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 68618.49,
+  "qty": 1.303296,
+  "time": 1787170500000,
+  "note": "absorb 1.70x"
  }
 ]
