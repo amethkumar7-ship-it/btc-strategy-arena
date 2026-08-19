@@ -5395,5 +5395,13 @@
   "qty": 1.404956,
   "time": 1787174700000,
   "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 69826.0,
+  "qty": 1.094276,
+  "time": 1787175900000,
+  "note": "taker-buy 57.2%"
  }
 ]
