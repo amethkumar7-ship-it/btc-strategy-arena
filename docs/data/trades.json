@@ -5863,5 +5863,21 @@
   "time": 1787262000000,
   "pnl": -376.53,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 73212.0,
+  "qty": 1.014545,
+  "time": 1787268300000,
+  "note": "taker-buy 57.6%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 73212.0,
+  "qty": 1.292925,
+  "time": 1787268300000,
+  "note": "crowd z=11.0"
  }
 ]
