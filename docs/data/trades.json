@@ -5727,5 +5727,13 @@
   "time": 1787221500000,
   "pnl": -60.4,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 72240.0,
+  "qty": 1.265145,
+  "time": 1787225400000,
+  "note": "coil break"
  }
 ]
