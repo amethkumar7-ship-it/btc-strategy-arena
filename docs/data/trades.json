@@ -5795,5 +5795,13 @@
   "time": 1787235900000,
   "pnl": -523.3,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 72330.47,
+  "qty": 1.300897,
+  "time": 1787238000000,
+  "note": "crowd z=3.5"
  }
 ]
