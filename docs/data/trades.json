@@ -5540,5 +5540,21 @@
   "time": 1787204400000,
   "pnl": 226.82,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 69493.89,
+  "qty": 1.347321,
+  "time": 1787206500000,
+  "note": "crowd z=2.1"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 69782.8,
+  "qty": 1.082308,
+  "time": 1787208000000,
+  "note": "taker-buy 60.9%"
  }
 ]
