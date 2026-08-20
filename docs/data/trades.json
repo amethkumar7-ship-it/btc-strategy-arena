@@ -5811,5 +5811,14 @@
   "qty": 1.224632,
   "time": 1787245200000,
   "note": "absorb 1.54x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 72909.11376000001,
+  "qty": 1.300897,
+  "time": 1787248200000,
+  "pnl": 563.72,
+  "note": "take-profit +0.8%"
  }
 ]
