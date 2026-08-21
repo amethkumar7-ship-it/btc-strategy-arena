@@ -6313,5 +6313,14 @@
   "time": 1787332800000,
   "pnl": -536.06,
   "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76951.4294,
+  "qty": 0.970584,
+  "time": 1787337600000,
+  "pnl": -525.14,
+  "note": "stop-loss -0.5%"
  }
 ]
