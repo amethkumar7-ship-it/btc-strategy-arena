@@ -6338,5 +6338,13 @@
   "qty": 0.965524,
   "time": 1787340600000,
   "note": "taker-buy 56.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77690.01,
+  "qty": 1.255302,
+  "time": 1787346600000,
+  "note": "crowd z=3.4"
  }
 ]
