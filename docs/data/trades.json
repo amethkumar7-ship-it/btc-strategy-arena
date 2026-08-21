@@ -6075,5 +6075,21 @@
   "qty": 1.002067,
   "time": 1787289300000,
   "note": "taker-buy 57.4%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 75733.61,
+  "qty": 1.272452,
+  "time": 1787295600000,
+  "note": "crowd z=3.8"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 75733.61,
+  "qty": 1.189974,
+  "time": 1787295600000,
+  "note": "coil break"
  }
 ]
