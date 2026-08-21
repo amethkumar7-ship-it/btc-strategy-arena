@@ -6381,5 +6381,31 @@
   "time": 1787347800000,
   "pnl": 584.27,
   "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78505.15,
+  "qty": 0.960233,
+  "time": 1787349300000,
+  "pnl": 248.2,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 78749.86,
+  "qty": 1.113348,
+  "time": 1787350200000,
+  "note": "absorb 2.00x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78356.1107,
+  "qty": 1.113348,
+  "time": 1787350800000,
+  "pnl": -613.38,
+  "note": "stop-loss -0.5%"
  }
 ]
