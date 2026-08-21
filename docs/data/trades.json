@@ -6440,5 +6440,14 @@
   "qty": 1.147747,
   "time": 1787353500000,
   "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78393.08,
+  "qty": 1.100549,
+  "time": 1787355000000,
+  "pnl": -352.13,
+  "note": "upper wicks dominate"
  }
 ]
