@@ -6449,5 +6449,14 @@
   "time": 1787355000000,
   "pnl": -352.13,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 78229.68,
+  "qty": 1.147747,
+  "time": 1787355300000,
+  "pnl": -517.05,
+  "note": "below coil low"
  }
 ]
