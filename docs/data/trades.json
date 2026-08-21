@@ -6424,5 +6424,21 @@
   "time": 1787351400000,
   "pnl": -609.09,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 78556.01,
+  "qty": 1.100549,
+  "time": 1787352600000,
+  "note": "absorb 2.30x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 78523.34,
+  "qty": 1.147747,
+  "time": 1787353500000,
+  "note": "coil break"
  }
 ]
