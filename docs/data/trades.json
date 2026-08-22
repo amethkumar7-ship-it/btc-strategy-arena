@@ -6543,5 +6543,22 @@
   "time": 1787371200000,
   "pnl": -425.65,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77310.51,
+  "qty": 1.113729,
+  "time": 1787378400000,
+  "note": "absorb 1.72x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77088.28,
+  "qty": 1.113729,
+  "time": 1787380200000,
+  "pnl": -419.55,
+  "note": "upper wicks dominate"
  }
 ]
