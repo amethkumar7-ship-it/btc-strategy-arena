@@ -6670,5 +6670,14 @@
   "time": 1787417100000,
   "pnl": 133.23,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 77084.94,
+  "qty": 1.267614,
+  "time": 1787419500000,
+  "pnl": -590.07,
+  "note": "lost 20-MA"
  }
 ]
