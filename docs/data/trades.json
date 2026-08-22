@@ -6593,5 +6593,23 @@
   "qty": 0.958506,
   "time": 1787389800000,
   "note": "taker-buy 58.2%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76989.1598,
+  "qty": 0.958506,
+  "time": 1787391900000,
+  "pnl": -518.86,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 76867.73,
+  "qty": 1.109119,
+  "time": 1787391900000,
+  "pnl": -599.44,
+  "note": "stop-loss -0.5%"
  }
 ]
