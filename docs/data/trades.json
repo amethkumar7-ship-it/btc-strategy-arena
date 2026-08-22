@@ -6500,5 +6500,21 @@
   "qty": 0.95442,
   "time": 1787366400000,
   "note": "taker-buy 57.3%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 78563.83,
+  "qty": 1.24732,
+  "time": 1787367900000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 78768.01,
+  "qty": 1.132355,
+  "time": 1787369100000,
+  "note": "coil break"
  }
 ]
