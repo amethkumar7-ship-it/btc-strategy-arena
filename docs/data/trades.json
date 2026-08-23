@@ -7001,5 +7001,14 @@
   "qty": 1.096683,
   "time": 1787499300000,
   "note": "absorb 2.18x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77242.28,
+  "qty": 1.096683,
+  "time": 1787501700000,
+  "pnl": -208.08,
+  "note": "upper wicks dominate"
  }
 ]
