@@ -6865,5 +6865,13 @@
   "qty": 1.153181,
   "time": 1787478300000,
   "note": "coil break"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 76845.99,
+  "qty": 1.269013,
+  "time": 1787480400000,
+  "note": "crowd z=4.4"
  }
 ]
