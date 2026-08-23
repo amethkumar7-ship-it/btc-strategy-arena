@@ -7078,5 +7078,14 @@
   "time": 1787523900000,
   "pnl": -199.84,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77636.3,
+  "qty": 0.915516,
+  "time": 1787525400000,
+  "pnl": -402.23,
+  "note": "tide flipped"
  }
 ]
