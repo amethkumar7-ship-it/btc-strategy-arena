@@ -7614,5 +7614,21 @@
   "time": 1787607000000,
   "pnl": -15.99,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 78935.1,
+  "qty": 1.126961,
+  "time": 1787613600000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 78947.07,
+  "qty": 0.877873,
+  "time": 1787614500000,
+  "note": "taker-buy 59.6%"
  }
 ]
