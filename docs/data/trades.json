@@ -7206,5 +7206,13 @@
   "time": 1787547000000,
   "pnl": -423.5,
   "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77208.6,
+  "qty": 1.077211,
+  "time": 1787548200000,
+  "note": "absorb 1.88x"
  }
 ]
