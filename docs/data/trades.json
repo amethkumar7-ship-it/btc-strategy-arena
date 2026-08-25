@@ -7911,5 +7911,31 @@
   "time": 1787669700000,
   "pnl": 290.21,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 79336.08,
+  "qty": 1.219946,
+  "time": 1787673000000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79336.01,
+  "qty": 0.863082,
+  "time": 1787673900000,
+  "pnl": 44.19,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 79168.98,
+  "qty": 1.219946,
+  "time": 1787674200000,
+  "pnl": -397.32,
+  "note": "entropy rose"
  }
 ]
