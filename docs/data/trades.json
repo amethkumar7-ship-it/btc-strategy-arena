@@ -8055,5 +8055,13 @@
   "qty": 0.859435,
   "time": 1787696700000,
   "note": "taker-buy 57.5%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 78862.0,
+  "qty": 1.127057,
+  "time": 1787697900000,
+  "note": "coil break"
  }
 ]
