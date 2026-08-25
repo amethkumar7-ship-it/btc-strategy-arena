@@ -7996,5 +7996,22 @@
   "time": 1787682600000,
   "pnl": -357.0,
   "note": "below coil low"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 79214.57,
+  "qty": 1.126378,
+  "time": 1787683500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 79067.58,
+  "qty": 1.126378,
+  "time": 1787683800000,
+  "pnl": -343.94,
+  "note": "below coil low"
  }
 ]
