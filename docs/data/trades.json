@@ -8243,5 +8243,13 @@
   "time": 1787754900000,
   "pnl": -568.45,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 78246.26,
+  "qty": 1.126845,
+  "time": 1787764500000,
+  "note": "coil break"
  }
 ]
