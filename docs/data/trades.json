@@ -8072,5 +8072,14 @@
   "time": 1787700000000,
   "pnl": -392.47,
   "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78809.86,
+  "qty": 1.045163,
+  "time": 1787706300000,
+  "pnl": 194.44,
+  "note": "upper wicks dominate"
  }
 ]
