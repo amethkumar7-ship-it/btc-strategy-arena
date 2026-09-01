@@ -7,24 +7,24 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-08-31T22:46:42.360180+00:00",
-  "last_candle": 1788216000000,
-  "last_price": 78665.36
+  "last_run": "2026-09-01T01:24:38.272694+00:00",
+  "last_candle": 1788225300000,
+  "last_price": 78624.61
  },
  "strategies": {
   "TAKER_TIDE": {
    "cash": 0.0,
    "position": {
-    "qty": 0.7531123938700719,
-    "entry": 78890.86,
-    "entry_t": 1788210300000,
-    "fee_in": 59.473157586655354,
+    "qty": 0.7511622874428387,
+    "entry": 78542.87,
+    "entry_t": 1788219000000,
+    "fee_in": 59.05749939091643,
     "meta": {
-     "note": "taker-buy 61.0%"
+     "note": "taker-buy 68.5%"
     }
    },
-   "equity": 59243.86,
-   "trades": 242,
+   "equity": 59059.84,
+   "trades": 243,
    "wins": 44
   },
   "CROWD_SURGE": {
@@ -35,11 +35,11 @@
    "wins": 29
   },
   "WICK_ABSORB": {
-   "cash": 75890.59598751573,
+   "cash": 75980.91580754834,
    "position": null,
-   "equity": 75890.6,
-   "trades": 158,
-   "wins": 34
+   "equity": 75980.92,
+   "trades": 159,
+   "wins": 35
   },
   "ENTROPY_DRIFT": {
    "cash": 95548.93788760857,
