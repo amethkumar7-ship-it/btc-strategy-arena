@@ -11166,5 +11166,116 @@
   "qty": 0.716799,
   "time": 1788427200000,
   "note": "taker-buy 58.0%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 77742.67,
+  "qty": 1.056207,
+  "time": 1788427500000,
+  "pnl": -320.11,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77649.99,
+  "qty": 0.716799,
+  "time": 1788429000000,
+  "pnl": -241.45,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77715.01,
+  "qty": 0.714767,
+  "time": 1788432600000,
+  "note": "taker-buy 56.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77925.48,
+  "qty": 1.18897,
+  "time": 1788434100000,
+  "note": "crowd z=2.4"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 77947.32,
+  "qty": 1.224588,
+  "time": 1788435300000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 77948.39,
+  "qty": 1.051313,
+  "time": 1788436500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78336.73008,
+  "qty": 0.714767,
+  "time": 1788438600000,
+  "pnl": 332.79,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 78551.0,
+  "qty": 0.711393,
+  "time": 1788439800000,
+  "note": "taker-buy 57.4%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 78548.88384,
+  "qty": 1.18897,
+  "time": 1788439800000,
+  "pnl": 555.07,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 78570.89856,
+  "qty": 1.224588,
+  "time": 1788439800000,
+  "pnl": 571.86,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 78571.97712,
+  "qty": 1.051313,
+  "time": 1788439800000,
+  "pnl": 490.95,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 78652.38,
+  "qty": 1.185032,
+  "time": 1788440100000,
+  "note": "crowd z=2.4"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78489.39,
+  "qty": 0.711393,
+  "time": 1788441300000,
+  "pnl": -155.6,
+  "note": "tide flipped"
  }
 ]
