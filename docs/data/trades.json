@@ -11668,5 +11668,31 @@
   "qty": 0.68217,
   "time": 1788518400000,
   "note": "taker-buy 58.6%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 81187.15,
+  "qty": 1.177555,
+  "time": 1788520200000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 81224.86,
+  "qty": 0.68217,
+  "time": 1788522900000,
+  "pnl": -5.01,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 80781.21424999999,
+  "qty": 1.177555,
+  "time": 1788525000000,
+  "pnl": -668.83,
+  "note": "stop-loss -0.5%"
  }
 ]
