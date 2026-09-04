@@ -11719,5 +11719,13 @@
   "time": 1788540900000,
   "pnl": 231.95,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 79629.29,
+  "qty": 0.900368,
+  "time": 1788546600000,
+  "note": "absorb 1.81x"
  }
 ]
