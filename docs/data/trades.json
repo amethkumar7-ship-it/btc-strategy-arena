@@ -12289,5 +12289,39 @@
   "time": 1788701700000,
   "pnl": -298.93,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 79646.01,
+  "qty": 0.887063,
+  "time": 1788708000000,
+  "note": "absorb 2.83x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 79606.04,
+  "qty": 0.887063,
+  "time": 1788710400000,
+  "pnl": -176.79,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 79770.91,
+  "qty": 1.19098,
+  "time": 1788712200000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 79689.03,
+  "qty": 1.19098,
+  "time": 1788713400000,
+  "pnl": -287.53,
+  "note": "entropy rose"
  }
 ]
