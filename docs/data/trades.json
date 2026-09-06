@@ -12323,5 +12323,39 @@
   "time": 1788713400000,
   "pnl": -287.53,
   "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 79714.58,
+  "qty": 0.670027,
+  "time": 1788715800000,
+  "note": "taker-buy 57.6%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79745.34,
+  "qty": 0.670027,
+  "time": 1788717300000,
+  "pnl": -86.29,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 79835.97,
+  "qty": 0.667928,
+  "time": 1788718200000,
+  "note": "taker-buy 56.0%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79920.45,
+  "qty": 0.667928,
+  "time": 1788720600000,
+  "pnl": -50.33,
+  "note": "tide flipped"
  }
 ]
