@@ -12450,5 +12450,38 @@
   "time": 1788732000000,
   "pnl": -305.58,
   "note": "below coil low"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 80220.0,
+  "qty": 1.128841,
+  "time": 1788735600000,
+  "note": "crowd z=5.0"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 80245.82,
+  "qty": 1.180352,
+  "time": 1788735900000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 80326.01,
+  "qty": 0.876582,
+  "time": 1788739200000,
+  "note": "absorb 1.51x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 80099.25,
+  "qty": 1.128841,
+  "time": 1788740100000,
+  "pnl": -317.37,
+  "note": "lost 20-MA"
  }
 ]
