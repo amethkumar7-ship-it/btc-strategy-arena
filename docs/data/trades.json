@@ -12977,5 +12977,56 @@
   "qty": 0.860919,
   "time": 1788868500000,
   "note": "absorb 2.01x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78037.85995,
+  "qty": 0.860919,
+  "time": 1788874500000,
+  "pnl": -472.38,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 78151.64,
+  "qty": 0.857947,
+  "time": 1788876600000,
+  "note": "absorb 1.74x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 78555.99,
+  "qty": 0.664505,
+  "time": 1788878700000,
+  "note": "taker-buy 56.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 78721.54,
+  "qty": 1.199357,
+  "time": 1788882000000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78776.85312,
+  "qty": 0.857947,
+  "time": 1788882300000,
+  "pnl": 401.7,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 78632.01,
+  "qty": 1.199357,
+  "time": 1788884100000,
+  "pnl": -296.2,
+  "note": "entropy rose"
  }
 ]
