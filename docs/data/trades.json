@@ -12849,5 +12849,57 @@
   "qty": 1.126826,
   "time": 1788826200000,
   "note": "crowd z=2.1"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 79038.0,
+  "qty": 1.126826,
+  "time": 1788826800000,
+  "pnl": -196.01,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 79350.0,
+  "qty": 1.017747,
+  "time": 1788829500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 79298.0,
+  "qty": 0.858676,
+  "time": 1788829800000,
+  "pnl": 18.57,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 79472.01,
+  "qty": 0.855083,
+  "time": 1788834000000,
+  "note": "absorb 1.55x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 79265.61,
+  "qty": 1.017747,
+  "time": 1788834300000,
+  "pnl": -247.4,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 79074.64994999999,
+  "qty": 0.855083,
+  "time": 1788835800000,
+  "pnl": -475.41,
+  "note": "stop-loss -0.5%"
  }
 ]
