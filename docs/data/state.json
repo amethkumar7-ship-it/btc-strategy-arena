@@ -7,78 +7,45 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-09-09T04:56:52.101335+00:00",
-  "last_candle": 1788929400000,
-  "last_price": 79172.87
+  "last_run": "2026-09-09T09:21:50.506446+00:00",
+  "last_candle": 1788945300000,
+  "last_price": 79487.96
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.6545046635307951,
-    "entry": 78830.0,
-    "entry_t": 1788927300000,
-    "fee_in": 51.646248875007586,
-    "meta": {
-     "note": "taker-buy 57.2%"
-    }
-   },
-   "equity": 51819.01,
-   "trades": 307,
+   "cash": 51597.54534796992,
+   "position": null,
+   "equity": 51597.55,
+   "trades": 309,
    "wins": 54
   },
   "CROWD_SURGE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 1.121245320081563,
-    "entry": 78927.99,
-    "entry_t": 1788926400000,
-    "fee_in": 88.586225636581,
-    "meta": {
-     "note": "crowd z=5.2"
-    }
-   },
-   "equity": 88772.21,
-   "trades": 123,
+   "cash": 87861.89992395937,
+   "position": null,
+   "equity": 87861.9,
+   "trades": 126,
    "wins": 34
   },
   "WICK_ABSORB": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.8538867856545664,
-    "entry": 78919.99,
-    "entry_t": 1788927600000,
-    "fee_in": 67.45619277776831,
-    "meta": {
-     "note": "absorb 1.70x"
-    }
-   },
-   "equity": 67604.67,
-   "trades": 205,
-   "wins": 44
+   "cash": 67549.71328576173,
+   "position": null,
+   "equity": 67549.71,
+   "trades": 206,
+   "wins": 45
   },
   "ENTROPY_DRIFT": {
-   "cash": 93877.98526409248,
+   "cash": 93461.06991518341,
    "position": null,
-   "equity": 93877.99,
-   "trades": 42,
+   "equity": 93461.07,
+   "trades": 43,
    "wins": 11
   },
   "RANGE_COIL": {
-   "cash": 0.0,
-   "position": {
-    "qty": 1.0168245354622458,
-    "entry": 78601.99,
-    "entry_t": 1788924900000,
-    "fee_in": 80.00443640456265,
-    "meta": {
-     "note": "coil break",
-     "coil_low": 78577.71
-    }
-   },
-   "equity": 80504.92,
-   "trades": 97,
-   "wins": 14
+   "cash": 80483.26359647945,
+   "position": null,
+   "equity": 80483.26,
+   "trades": 98,
+   "wins": 15
   }
  }
 }

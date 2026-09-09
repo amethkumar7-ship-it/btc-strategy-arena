@@ -13188,5 +13188,109 @@
   "qty": 0.853887,
   "time": 1788927600000,
   "note": "absorb 1.70x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 79230.80592,
+  "qty": 1.016825,
+  "time": 1788930600000,
+  "pnl": 478.83,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78943.99,
+  "qty": 0.654505,
+  "time": 1788932100000,
+  "pnl": -28.71,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 78943.99,
+  "qty": 1.121245,
+  "time": 1788932100000,
+  "pnl": -159.16,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 79187.7,
+  "qty": 0.853887,
+  "time": 1788935400000,
+  "pnl": 93.52,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 79309.91,
+  "qty": 1.113841,
+  "time": 1788937500000,
+  "note": "crowd z=2.1"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 79198.0,
+  "qty": 1.113841,
+  "time": 1788939900000,
+  "pnl": -301.29,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 79511.6,
+  "qty": 0.648533,
+  "time": 1788941700000,
+  "note": "taker-buy 56.2%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 79567.31,
+  "qty": 1.106455,
+  "time": 1788942000000,
+  "note": "crowd z=2.2"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79640.0,
+  "qty": 0.648533,
+  "time": 1788943200000,
+  "pnl": -20.0,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 79700.01,
+  "qty": 1.176714,
+  "time": 1788943800000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 79504.99,
+  "qty": 1.176714,
+  "time": 1788944700000,
+  "pnl": -416.92,
+  "note": "entropy rose"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 79487.96,
+  "qty": 1.106455,
+  "time": 1788945300000,
+  "pnl": -263.87,
+  "note": "lost 20-MA"
  }
 ]
