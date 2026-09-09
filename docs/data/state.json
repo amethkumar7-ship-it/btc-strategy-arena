@@ -7,43 +7,76 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-09-09T00:26:01.543478+00:00",
-  "last_candle": 1788913200000,
-  "last_price": 78665.61
+  "last_run": "2026-09-09T04:56:52.101335+00:00",
+  "last_candle": 1788929400000,
+  "last_price": 79172.87
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 51720.39011252173,
-   "position": null,
-   "equity": 51720.39,
-   "trades": 306,
+   "cash": 0.0,
+   "position": {
+    "qty": 0.6545046635307951,
+    "entry": 78830.0,
+    "entry_t": 1788927300000,
+    "fee_in": 51.646248875007586,
+    "meta": {
+     "note": "taker-buy 57.2%"
+    }
+   },
+   "equity": 51819.01,
+   "trades": 307,
    "wins": 54
   },
   "CROWD_SURGE": {
-   "cash": 88586.225636581,
-   "position": null,
-   "equity": 88586.23,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.121245320081563,
+    "entry": 78927.99,
+    "entry_t": 1788926400000,
+    "fee_in": 88.586225636581,
+    "meta": {
+     "note": "crowd z=5.2"
+    }
+   },
+   "equity": 88772.21,
    "trades": 123,
    "wins": 34
   },
   "WICK_ABSORB": {
-   "cash": 67411.28719561506,
-   "position": null,
-   "equity": 67411.29,
-   "trades": 204,
-   "wins": 43
+   "cash": 0.0,
+   "position": {
+    "qty": 0.8538867856545664,
+    "entry": 78919.99,
+    "entry_t": 1788927600000,
+    "fee_in": 67.45619277776831,
+    "meta": {
+     "note": "absorb 1.70x"
+    }
+   },
+   "equity": 67604.67,
+   "trades": 205,
+   "wins": 44
   },
   "ENTROPY_DRIFT": {
-   "cash": 94213.51714936749,
+   "cash": 93877.98526409248,
    "position": null,
-   "equity": 94213.52,
-   "trades": 41,
+   "equity": 93877.99,
+   "trades": 42,
    "wins": 11
   },
   "RANGE_COIL": {
-   "cash": 80004.43640456266,
-   "position": null,
-   "equity": 80004.44,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.0168245354622458,
+    "entry": 78601.99,
+    "entry_t": 1788924900000,
+    "fee_in": 80.00443640456265,
+    "meta": {
+     "note": "coil break",
+     "coil_low": 78577.71
+    }
+   },
+   "equity": 80504.92,
    "trades": 97,
    "wins": 14
   }
