@@ -13733,5 +13733,40 @@
   "qty": 1.016187,
   "time": 1789075800000,
   "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 77189.94,
+  "qty": 1.016187,
+  "time": 1789076100000,
+  "pnl": -199.44,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 77152.0,
+  "qty": 1.014654,
+  "time": 1789077600000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 77070.01,
+  "qty": 1.014654,
+  "time": 1789079100000,
+  "pnl": -239.75,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 76786.14994999999,
+  "qty": 0.86709,
+  "time": 1789081200000,
+  "pnl": -468.14,
+  "note": "stop-loss -0.5%"
  }
 ]
