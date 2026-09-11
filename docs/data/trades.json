@@ -13843,5 +13843,108 @@
   "qty": 0.862879,
   "time": 1789105500000,
   "note": "absorb 1.78x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77410.01,
+  "qty": 1.123973,
+  "time": 1789107000000,
+  "note": "crowd z=2.3"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 77183.01,
+  "qty": 1.123973,
+  "time": 1789108200000,
+  "pnl": -428.99,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 77314.72,
+  "qty": 1.20763,
+  "time": 1789110000000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77332.22,
+  "qty": 0.862879,
+  "time": 1789110900000,
+  "pnl": -15.87,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77263.2,
+  "qty": 0.64969,
+  "time": 1789112100000,
+  "pnl": 82.23,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 77246.01,
+  "qty": 1.20763,
+  "time": 1789112700000,
+  "pnl": -269.72,
+  "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77420.0,
+  "qty": 0.647078,
+  "time": 1789114800000,
+  "note": "taker-buy 59.6%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77420.0,
+  "qty": 1.118292,
+  "time": 1789114800000,
+  "note": "crowd z=2.5"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77350.0,
+  "qty": 0.647078,
+  "time": 1789116600000,
+  "pnl": -145.49,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 77277.32,
+  "qty": 1.118292,
+  "time": 1789117500000,
+  "pnl": -332.64,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 76931.87,
+  "qty": 1.008234,
+  "time": 1789119300000,
+  "pnl": -301.13,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77162.68,
+  "qty": 0.863046,
+  "time": 1789120800000,
+  "note": "absorb 2.36x"
  }
 ]
