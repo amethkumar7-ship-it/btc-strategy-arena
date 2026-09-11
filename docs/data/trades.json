@@ -14150,5 +14150,65 @@
   "time": 1789136700000,
   "pnl": -89.14,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 78670.14265,
+  "qty": 1.17502,
+  "time": 1789137300000,
+  "pnl": -649.95,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 78720.76,
+  "qty": 0.840052,
+  "time": 1789140300000,
+  "note": "absorb 1.59x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 78327.1562,
+  "qty": 0.840052,
+  "time": 1789141800000,
+  "pnl": -462.64,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77798.01,
+  "qty": 0.844075,
+  "time": 1789144800000,
+  "note": "absorb 1.53x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77892.18,
+  "qty": 0.634998,
+  "time": 1789145100000,
+  "note": "taker-buy 57.1%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77916.0,
+  "qty": 0.844075,
+  "time": 1789145700000,
+  "pnl": -31.91,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77583.92,
+  "qty": 0.634998,
+  "time": 1789148100000,
+  "pnl": -294.52,
+  "note": "tide flipped"
  }
 ]
