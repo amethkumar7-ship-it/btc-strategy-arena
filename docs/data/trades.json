@@ -13946,5 +13946,209 @@
   "qty": 0.863046,
   "time": 1789120800000,
   "note": "absorb 2.36x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 76776.8666,
+  "qty": 0.863046,
+  "time": 1789125000000,
+  "pnl": -465.9,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77060.53,
+  "qty": 0.64821,
+  "time": 1789128000000,
+  "note": "taker-buy 57.2%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 76924.46,
+  "qty": 1.121176,
+  "time": 1789128600000,
+  "note": "crowd z=2.3"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76675.22735,
+  "qty": 0.64821,
+  "time": 1789129800000,
+  "pnl": -349.46,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 76539.8377,
+  "qty": 1.121176,
+  "time": 1789129800000,
+  "pnl": -603.38,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77632.78,
+  "qty": 1.103182,
+  "time": 1789130100000,
+  "note": "crowd z=3.9"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 77865.45,
+  "qty": 1.195629,
+  "time": 1789130700000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77726.0,
+  "qty": 0.638169,
+  "time": 1789132200000,
+  "note": "taker-buy 56.9%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 77476.12275,
+  "qty": 1.195629,
+  "time": 1789133400000,
+  "pnl": -651.31,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77337.37,
+  "qty": 0.638169,
+  "time": 1789133700000,
+  "pnl": -347.02,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 77648.2,
+  "qty": 1.190594,
+  "time": 1789133700000,
+  "note": "H=0.81 bits"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 78253.84224,
+  "qty": 1.103182,
+  "time": 1789134300000,
+  "pnl": 513.09,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 78269.3856,
+  "qty": 1.190594,
+  "time": 1789134300000,
+  "pnl": 553.85,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 78670.57,
+  "qty": 1.182155,
+  "time": 1789134600000,
+  "note": "H=0.81 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 79242.56,
+  "qty": 0.621581,
+  "time": 1789134900000,
+  "note": "taker-buy 58.3%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 79299.93456000001,
+  "qty": 1.182155,
+  "time": 1789134900000,
+  "pnl": 557.17,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79876.50048,
+  "qty": 0.621581,
+  "time": 1789135200000,
+  "pnl": 295.09,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 79532.86,
+  "qty": 1.083271,
+  "time": 1789135200000,
+  "note": "crowd z=2.5"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 79532.86,
+  "qty": 1.176336,
+  "time": 1789135200000,
+  "note": "H=0.81 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 79032.01,
+  "qty": 0.626967,
+  "time": 1789135500000,
+  "note": "taker-buy 57.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 79135.1957,
+  "qty": 1.083271,
+  "time": 1789135500000,
+  "pnl": -602.75,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 79135.1957,
+  "qty": 1.176336,
+  "time": 1789135500000,
+  "pnl": -654.53,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 79065.47,
+  "qty": 1.17502,
+  "time": 1789135800000,
+  "note": "H=0.81 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 79048.0,
+  "qty": 0.626967,
+  "time": 1789136700000,
+  "pnl": -89.14,
+  "note": "tide flipped"
  }
 ]
