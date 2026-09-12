@@ -14516,5 +14516,21 @@
   "time": 1789227000000,
   "pnl": -265.03,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77205.73,
+  "qty": 0.621644,
+  "time": 1789245900000,
+  "note": "taker-buy 59.0%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 77208.19,
+  "qty": 0.998492,
+  "time": 1789246800000,
+  "note": "coil break"
  }
 ]
