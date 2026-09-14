@@ -15442,5 +15442,14 @@
   "time": 1789417200000,
   "pnl": 459.85,
   "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 79100.0,
+  "qty": 1.03539,
+  "time": 1789419300000,
+  "pnl": -462.37,
+  "note": "lost 20-MA"
  }
 ]
