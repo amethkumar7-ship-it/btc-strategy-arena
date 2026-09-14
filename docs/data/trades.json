@@ -15272,5 +15272,107 @@
   "time": 1789381200000,
   "pnl": -290.87,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 77910.31090000001,
+  "qty": 1.062082,
+  "time": 1789383000000,
+  "pnl": -581.81,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77789.01,
+  "qty": 0.5977,
+  "time": 1789385700000,
+  "note": "taker-buy 57.1%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77999.99,
+  "qty": 0.821698,
+  "time": 1789388700000,
+  "note": "absorb 1.68x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77698.01,
+  "qty": 0.5977,
+  "time": 1789390500000,
+  "pnl": -147.37,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77609.99005000001,
+  "qty": 0.821698,
+  "time": 1789391100000,
+  "pnl": -448.39,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 78190.52,
+  "qty": 1.05616,
+  "time": 1789392600000,
+  "note": "crowd z=5.3"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 78078.0,
+  "qty": 0.593602,
+  "time": 1789392900000,
+  "note": "taker-buy 57.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 78290.01,
+  "qty": 0.812932,
+  "time": 1789395600000,
+  "note": "absorb 1.61x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78702.624,
+  "qty": 0.593602,
+  "time": 1789396200000,
+  "pnl": 277.67,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 78321.99,
+  "qty": 1.05616,
+  "time": 1789398000000,
+  "pnl": -26.53,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 78578.02,
+  "qty": 0.593355,
+  "time": 1789401300000,
+  "note": "taker-buy 56.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 78433.76,
+  "qty": 0.593355,
+  "time": 1789402200000,
+  "pnl": -178.81,
+  "note": "tide flipped"
  }
 ]
