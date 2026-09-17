@@ -16351,5 +16351,124 @@
   "qty": 0.567011,
   "time": 1789626300000,
   "note": "taker-buy 58.7%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 76547.51,
+  "qty": 0.820644,
+  "time": 1789627500000,
+  "pnl": -58.06,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 76572.0,
+  "qty": 0.974869,
+  "time": 1789628400000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 76637.51,
+  "qty": 1.017615,
+  "time": 1789628700000,
+  "note": "crowd z=3.1"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76492.01,
+  "qty": 0.567011,
+  "time": 1789630500000,
+  "pnl": -61.81,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 76492.01,
+  "qty": 1.017615,
+  "time": 1789630500000,
+  "pnl": -303.97,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 76460.01,
+  "qty": 0.974869,
+  "time": 1789631400000,
+  "pnl": -258.44,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 76527.65,
+  "qty": 0.565614,
+  "time": 1789632000000,
+  "note": "taker-buy 59.0%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 76573.24,
+  "qty": 0.971481,
+  "time": 1789635000000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76468.05,
+  "qty": 0.565614,
+  "time": 1789638900000,
+  "pnl": -120.29,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 76468.05,
+  "qty": 0.971481,
+  "time": 1789638900000,
+  "pnl": -250.94,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 76434.35,
+  "qty": 0.820216,
+  "time": 1789643400000,
+  "note": "absorb 1.58x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 76388.78,
+  "qty": 0.565069,
+  "time": 1789643700000,
+  "note": "taker-buy 57.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 76310.01,
+  "qty": 0.565069,
+  "time": 1789644600000,
+  "pnl": -130.84,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 76482.0,
+  "qty": 1.015714,
+  "time": 1789646100000,
+  "note": "crowd z=6.4"
  }
 ]
