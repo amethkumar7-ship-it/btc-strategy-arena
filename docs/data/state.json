@@ -7,62 +7,54 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-09-17T01:42:41.547983+00:00",
-  "last_candle": 1789608900000,
-  "last_price": 76609.28
+  "last_run": "2026-09-17T06:39:27.983266+00:00",
+  "last_candle": 1789626600000,
+  "last_price": 76491.68
  },
  "strategies": {
   "TAKER_TIDE": {
    "cash": 0.0,
    "position": {
-    "qty": 0.5696517778436704,
-    "entry": 76207.72,
-    "entry_t": 1789602000000,
-    "fee_in": 43.455318501914554,
+    "qty": 0.5670107829348346,
+    "entry": 76448.0,
+    "entry_t": 1789626300000,
+    "fee_in": 43.390230564366604,
     "meta": {
-     "note": "taker-buy 57.1%"
+     "note": "taker-buy 58.7%"
     }
    },
-   "equity": 43640.61,
-   "trades": 375,
-   "wins": 61
+   "equity": 43371.61,
+   "trades": 377,
+   "wins": 62
   },
   "CROWD_SURGE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 1.0226091948538598,
-    "entry": 76631.36,
-    "entry_t": 1789608300000,
-    "fee_in": 78.44237572588216,
-    "meta": {
-     "note": "crowd z=2.1"
-    }
-   },
-   "equity": 78341.35,
-   "trades": 156,
+   "cash": 78065.5605297186,
+   "position": null,
+   "equity": 78065.56,
+   "trades": 157,
    "wins": 35
   },
   "WICK_ABSORB": {
-   "cash": 62941.231429849206,
-   "position": null,
-   "equity": 62941.23,
-   "trades": 244,
+   "cash": 0.0,
+   "position": {
+    "qty": 0.8206443001161642,
+    "entry": 76465.17,
+    "entry_t": 1789625100000,
+    "fee_in": 62.81351943735086,
+    "meta": {
+     "note": "absorb 2.26x"
+    }
+   },
+   "equity": 62772.46,
+   "trades": 246,
    "wins": 53
   },
   "ENTROPY_DRIFT": {
-   "cash": 0.0,
-   "position": {
-    "qty": 1.1752507384011426,
-    "entry": 76268.0,
-    "entry_t": 1789603200000,
-    "fee_in": 89.72374706344179,
-    "meta": {
-     "note": "H=0.87 bits"
-    }
-   },
-   "equity": 90035.11,
-   "trades": 56,
-   "wins": 13
+   "cash": 89943.44581056366,
+   "position": null,
+   "equity": 89943.45,
+   "trades": 57,
+   "wins": 14
   },
   "RANGE_COIL": {
    "cash": 74722.37056137182,
