@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 65185.28,
-  "qty": 1.483783,
-  "time": 1786341600000,
-  "note": "crowd z=2.2"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 65199.39,
-  "qty": 1.443053,
-  "time": 1786343700000,
-  "pnl": 23.21,
-  "note": "tide flipped"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 65245.64,
-  "qty": 1.487233,
-  "time": 1786344000000,
-  "note": "coil break"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 65243.25,
-  "qty": 1.483783,
-  "time": 1786347900000,
-  "pnl": -107.61,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 65289.28,
-  "qty": 1.438185,
-  "time": 1786350300000,
-  "note": "taker-buy 61.1%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 65212.0,
-  "qty": 1.438185,
-  "time": 1786351500000,
-  "pnl": -298.92,
-  "note": "tide flipped"
- },
- {
   "strategy": "RANGE_COIL",
   "side": "SELL",
   "price": 65164.62,
@@ -16998,5 +16947,56 @@
   "qty": 0.90275,
   "time": 1789998300000,
   "note": "crowd z=3.5"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 86073.01,
+  "qty": 0.70887,
+  "time": 1790002200000,
+  "note": "absorb 1.52x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 86128.26768,
+  "qty": 0.90275,
+  "time": 1790003100000,
+  "pnl": 462.12,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 85820.75,
+  "qty": 0.70887,
+  "time": 1790007300000,
+  "pnl": -300.73,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 86045.91,
+  "qty": 0.843439,
+  "time": 1790010300000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 85786.56,
+  "qty": 0.843439,
+  "time": 1790010900000,
+  "pnl": -363.75,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 85923.13,
+  "qty": 0.70661,
+  "time": 1790016000000,
+  "note": "absorb 1.64x"
  }
 ]
