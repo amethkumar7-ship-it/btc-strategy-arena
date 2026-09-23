@@ -1,13 +1,5 @@
 [
  {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 63759.27,
-  "qty": 1.449294,
-  "time": 1786521000000,
-  "note": "absorb 2.40x"
- },
- {
   "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 63824.47,
@@ -16998,5 +16990,14 @@
   "time": 1790187600000,
   "pnl": -198.62,
   "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84316.0,
+  "qty": 0.484502,
+  "time": 1790193600000,
+  "pnl": 62.82,
+  "note": "tide flipped"
  }
 ]
