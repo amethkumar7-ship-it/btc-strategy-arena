@@ -1,55 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 63630.01,
-  "qty": 1.400857,
-  "time": 1786491900000,
-  "note": "taker-buy 59.3%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 63566.01,
-  "qty": 1.400857,
-  "time": 1786492800000,
-  "pnl": -267.93,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 63607.57,
-  "qty": 1.459417,
-  "time": 1786493400000,
-  "note": "absorb 1.93x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 63666.91,
-  "qty": 1.395841,
-  "time": 1786494300000,
-  "note": "taker-buy 56.8%"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 63736.22,
-  "qty": 1.495483,
-  "time": 1786495500000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 63784.33,
-  "qty": 1.459417,
-  "time": 1786497000000,
-  "pnl": 71.96,
-  "note": "upper wicks dominate"
- },
- {
   "strategy": "WICK_ABSORB",
   "side": "BUY",
   "price": 63845.47,
@@ -16997,5 +16947,57 @@
   "qty": 0.474321,
   "time": 1790137500000,
   "note": "taker-buy 65.7%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 86971.08,
+  "qty": 0.474321,
+  "time": 1790139600000,
+  "pnl": -105.78,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 86910.0,
+  "qty": 0.87554,
+  "time": 1790139900000,
+  "pnl": -132.97,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 86469.66,
+  "qty": 0.476117,
+  "time": 1790146500000,
+  "note": "taker-buy 61.6%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 86358.7,
+  "qty": 0.476117,
+  "time": 1790147400000,
+  "pnl": -135.16,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 86213.01,
+  "qty": 0.818207,
+  "time": 1790152500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 86088.01,
+  "qty": 0.818207,
+  "time": 1790152800000,
+  "pnl": -243.32,
+  "note": "below coil low"
  }
 ]
