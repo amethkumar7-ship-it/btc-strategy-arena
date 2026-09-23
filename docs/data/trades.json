@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 63845.47,
-  "qty": 1.455105,
-  "time": 1786499100000,
-  "note": "absorb 1.52x"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 63861.25,
-  "qty": 1.500573,
-  "time": 1786500300000,
-  "note": "crowd z=2.3"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 63782.41,
-  "qty": 1.500573,
-  "time": 1786502100000,
-  "pnl": -309.94,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 63749.76,
-  "qty": 1.395841,
-  "time": 1786503300000,
-  "pnl": -62.3,
-  "note": "tide flipped"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 63814.79,
-  "qty": 1.391632,
-  "time": 1786506000000,
-  "note": "taker-buy 57.2%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 63835.59,
-  "qty": 1.455105,
-  "time": 1786506900000,
-  "pnl": -200.26,
-  "note": "upper wicks dominate"
- },
- {
   "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 63796.81,
@@ -16999,5 +16948,56 @@
   "time": 1790152800000,
   "pnl": -243.32,
   "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 85859.25,
+  "qty": 0.47793,
+  "time": 1790158200000,
+  "note": "taker-buy 56.5%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 85923.07,
+  "qty": 0.700453,
+  "time": 1790160900000,
+  "note": "absorb 1.60x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 85573.56,
+  "qty": 0.47793,
+  "time": 1790162400000,
+  "pnl": -218.51,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 85493.45465,
+  "qty": 0.700453,
+  "time": 1790162700000,
+  "pnl": -421.05,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 85592.14,
+  "qty": 0.887244,
+  "time": 1790170200000,
+  "note": "crowd z=3.8"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 85322.74,
+  "qty": 0.887244,
+  "time": 1790172300000,
+  "pnl": -390.74,
+  "note": "lost 20-MA"
  }
 ]
