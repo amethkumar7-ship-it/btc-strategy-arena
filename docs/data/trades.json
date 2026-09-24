@@ -1,13 +1,5 @@
 [
  {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 63624.92,
-  "qty": 1.503755,
-  "time": 1786624200000,
-  "note": "crowd z=5.0"
- },
- {
   "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 63655.78,
@@ -16999,5 +16991,13 @@
   "time": 1790270100000,
   "pnl": -319.85,
   "note": "lost 20-MA"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 84370.0,
+  "qty": 0.689388,
+  "time": 1790282100000,
+  "note": "absorb 3.15x"
  }
 ]
