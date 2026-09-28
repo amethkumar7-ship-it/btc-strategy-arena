@@ -1,58 +1,6 @@
 [
  {
   "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 63060.01,
-  "qty": 1.286837,
-  "time": 1786888500000,
-  "pnl": -155.07,
-  "note": "tide flipped"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "SELL",
-  "price": 63060.01,
-  "qty": 1.559383,
-  "time": 1786888500000,
-  "pnl": -201.44,
-  "note": "entropy rose"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 63100.9,
-  "qty": 1.470056,
-  "time": 1786890000000,
-  "note": "crowd z=5.2"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 63114.01,
-  "qty": 1.283165,
-  "time": 1786892700000,
-  "note": "taker-buy 63.6%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 63110.25,
-  "qty": 1.418182,
-  "time": 1786893000000,
-  "pnl": -53.79,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 63114.02,
-  "qty": 1.283165,
-  "time": 1786894800000,
-  "pnl": -162.04,
-  "note": "tide flipped"
- },
- {
-  "strategy": "TAKER_TIDE",
   "side": "BUY",
   "price": 63146.39,
   "qty": 1.279944,
@@ -17000,5 +16948,56 @@
   "time": 1790555400000,
   "pnl": -505.36,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 83150.5,
+  "qty": 0.461544,
+  "time": 1790575200000,
+  "note": "taker-buy 57.0%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 83240.02,
+  "qty": 0.658267,
+  "time": 1790575500000,
+  "note": "absorb 1.67x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 83062.0,
+  "qty": 0.461544,
+  "time": 1790576700000,
+  "pnl": -117.6,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 83181.14,
+  "qty": 0.658267,
+  "time": 1790577900000,
+  "pnl": -148.36,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 83265.78,
+  "qty": 0.808278,
+  "time": 1790578800000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 83086.0,
+  "qty": 0.808278,
+  "time": 1790579400000,
+  "pnl": -279.84,
+  "note": "below coil low"
  }
 ]
