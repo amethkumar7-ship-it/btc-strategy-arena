@@ -1,55 +1,5 @@
 [
  {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 63013.66,
-  "qty": 1.475244,
-  "time": 1786881300000,
-  "note": "crowd z=2.3"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 63025.36,
-  "qty": 1.290007,
-  "time": 1786882800000,
-  "pnl": -147.53,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 63004.95,
-  "qty": 1.475244,
-  "time": 1786883400000,
-  "pnl": -198.85,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 63021.98,
-  "qty": 1.418182,
-  "time": 1786884900000,
-  "note": "absorb 99.60x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 63054.34,
-  "qty": 1.286837,
-  "time": 1786885500000,
-  "note": "taker-buy 56.1%"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "BUY",
-  "price": 63063.0,
-  "qty": 1.559383,
-  "time": 1786886700000,
-  "note": "H=0.87 bits"
- },
- {
   "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 63060.01,
@@ -16998,6 +16948,57 @@
   "qty": 0.651566,
   "time": 1790548500000,
   "pnl": -386.04,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84304.01,
+  "qty": 0.455706,
+  "time": 1790550900000,
+  "note": "taker-buy 57.4%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84978.44208,
+  "qty": 0.455706,
+  "time": 1790554800000,
+  "pnl": 230.16,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 84852.39,
+  "qty": 0.851307,
+  "time": 1790554800000,
+  "note": "crowd z=4.9"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84792.47,
+  "qty": 0.455792,
+  "time": 1790555100000,
+  "note": "taker-buy 61.0%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84368.50765,
+  "qty": 0.455792,
+  "time": 1790555400000,
+  "pnl": -270.38,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 84428.12805,
+  "qty": 0.851307,
+  "time": 1790555400000,
+  "pnl": -505.36,
   "note": "stop-loss -0.5%"
  }
 ]
