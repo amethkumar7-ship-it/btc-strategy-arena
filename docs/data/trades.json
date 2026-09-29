@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 63520.18,
-  "qty": 1.401,
-  "time": 1786946100000,
-  "note": "absorb 1.62x"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 63693.23,
-  "qty": 1.461078,
-  "time": 1786949100000,
-  "note": "crowd z=2.1"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 63693.23,
-  "qty": 1.452926,
-  "time": 1786949100000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 63577.02,
-  "qty": 1.401,
-  "time": 1786950000000,
-  "pnl": -98.52,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 63577.02,
-  "qty": 1.452926,
-  "time": 1786950000000,
-  "pnl": -353.85,
-  "note": "below coil low"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 63555.52,
-  "qty": 1.461078,
-  "time": 1786950900000,
-  "pnl": -387.22,
-  "note": "lost 20-MA"
- },
- {
   "strategy": "RANGE_COIL",
   "side": "BUY",
   "price": 63385.5,
@@ -16998,5 +16947,54 @@
   "time": 1790643600000,
   "pnl": -377.14,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 83230.01,
+  "qty": 0.453837,
+  "time": 1790658000000,
+  "note": "taker-buy 56.4%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 83316.01,
+  "qty": 0.642501,
+  "time": 1790659500000,
+  "note": "absorb 1.64x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 83516.01,
+  "qty": 0.796228,
+  "time": 1790661600000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 83770.0,
+  "qty": 0.85084,
+  "time": 1790661900000,
+  "note": "crowd z=2.8"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 83770.0,
+  "qty": 1.042335,
+  "time": 1790661900000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 83895.85007999999,
+  "qty": 0.453837,
+  "time": 1790663400000,
+  "pnl": 226.3,
+  "note": "take-profit +0.8%"
  }
 ]
