@@ -2,56 +2,6 @@
  {
   "strategy": "TAKER_TIDE",
   "side": "SELL",
-  "price": 64507.56,
-  "qty": 1.193405,
-  "time": 1787139000000,
-  "pnl": -158.93,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 64662.8,
-  "qty": 1.408786,
-  "time": 1787142600000,
-  "note": "crowd z=5.1"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 64662.8,
-  "qty": 1.396694,
-  "time": 1787142600000,
-  "note": "coil break"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 64943.45,
-  "qty": 1.183026,
-  "time": 1787143200000,
-  "note": "taker-buy 56.2%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 64912.19616,
-  "qty": 1.36739,
-  "time": 1787143200000,
-  "pnl": 527.54,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 64984.57,
-  "qty": 1.363137,
-  "time": 1787143500000,
-  "note": "absorb 3.04x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
   "price": 64920.53,
   "qty": 1.183026,
   "time": 1787145000000,
@@ -16998,5 +16948,57 @@
   "qty": 0.825807,
   "time": 1790863500000,
   "note": "crowd z=2.6"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 84050.65,
+  "qty": 0.618401,
+  "time": 1790866500000,
+  "note": "absorb 1.85x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84611.18736,
+  "qty": 0.439046,
+  "time": 1790867100000,
+  "pnl": 220.79,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 84712.32,
+  "qty": 0.825807,
+  "time": 1790867100000,
+  "pnl": 415.78,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 84723.05519999999,
+  "qty": 0.618401,
+  "time": 1790867100000,
+  "pnl": 311.39,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84092.8,
+  "qty": 0.440869,
+  "time": 1790867400000,
+  "note": "taker-buy 60.4%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84765.5424,
+  "qty": 0.440869,
+  "time": 1790875200000,
+  "pnl": 222.11,
+  "note": "take-profit +0.8%"
  }
 ]
