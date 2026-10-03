@@ -1,107 +1,6 @@
 [
  {
   "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 71315.84,
-  "qty": 1.320786,
-  "time": 1787213700000,
-  "note": "crowd z=4.2"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 71349.73,
-  "qty": 1.052988,
-  "time": 1787214300000,
-  "note": "taker-buy 58.0%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 71349.73,
-  "qty": 1.25025,
-  "time": 1787214300000,
-  "note": "absorb 1.51x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 71920.52784,
-  "qty": 1.052988,
-  "time": 1787216700000,
-  "pnl": 450.11,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 71886.36671999999,
-  "qty": 1.320786,
-  "time": 1787216700000,
-  "pnl": 564.31,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 71920.52784,
-  "qty": 1.25025,
-  "time": 1787216700000,
-  "pnl": 534.43,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 71884.0,
-  "qty": 1.263847,
-  "time": 1787216700000,
-  "note": "coil break"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "BUY",
-  "price": 71940.52,
-  "qty": 1.354884,
-  "time": 1787217000000,
-  "note": "H=0.87 bits"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 71888.01,
-  "qty": 1.051359,
-  "time": 1787217300000,
-  "note": "taker-buy 56.0%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 71789.97,
-  "qty": 1.051359,
-  "time": 1787219700000,
-  "pnl": -254.21,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 72399.99,
-  "qty": 1.308795,
-  "time": 1787220900000,
-  "note": "crowd z=2.4"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 72459.072,
-  "qty": 1.263847,
-  "time": 1787220900000,
-  "pnl": 544.28,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "CROWD_SURGE",
   "side": "SELL",
   "price": 72037.99005000001,
   "qty": 1.308795,
@@ -16996,5 +16895,108 @@
   "qty": 1.015916,
   "time": 1791029700000,
   "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 84853.32,
+  "qty": 1.015916,
+  "time": 1791033000000,
+  "pnl": -112.94,
+  "note": "entropy rose"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84797.36,
+  "qty": 0.429614,
+  "time": 1791033600000,
+  "pnl": -3.56,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 84797.36,
+  "qty": 0.817187,
+  "time": 1791033600000,
+  "pnl": -136.53,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84871.83,
+  "qty": 0.428379,
+  "time": 1791035100000,
+  "note": "taker-buy 58.3%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84798.32,
+  "qty": 0.428379,
+  "time": 1791036000000,
+  "pnl": -104.21,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84851.37,
+  "qty": 0.427255,
+  "time": 1791038700000,
+  "note": "taker-buy 56.6%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 84851.37,
+  "qty": 0.604164,
+  "time": 1791038700000,
+  "note": "absorb 2.20x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 84841.56,
+  "qty": 0.604164,
+  "time": 1791040800000,
+  "pnl": -108.5,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84787.44,
+  "qty": 0.427255,
+  "time": 1791044400000,
+  "pnl": -99.83,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 84844.04,
+  "qty": 0.602939,
+  "time": 1791045600000,
+  "note": "absorb 2.45x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 84856.01,
+  "qty": 0.426057,
+  "time": 1791046200000,
+  "note": "taker-buy 60.6%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 84874.04,
+  "qty": 0.602939,
+  "time": 1791046800000,
+  "pnl": -84.29,
+  "note": "upper wicks dominate"
  }
 ]
