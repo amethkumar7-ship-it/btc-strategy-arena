@@ -7,77 +7,52 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-10-09T02:09:00.706183+00:00",
-  "last_candle": 1791511200000,
-  "last_price": 82010.01
+  "last_run": "2026-10-09T08:57:08.795920+00:00",
+  "last_candle": 1791535800000,
+  "last_price": 82686.23
  },
  "strategies": {
   "TAKER_TIDE": {
    "cash": 0.0,
    "position": {
-    "qty": 0.38374542556741364,
-    "entry": 81965.7,
-    "entry_t": 1791510300000,
-    "fee_in": 31.485447876307266,
+    "qty": 0.3790206749390665,
+    "entry": 82686.23,
+    "entry_t": 1791535800000,
+    "fee_in": 31.371161864631514,
     "meta": {
-     "note": "taker-buy 60.7%"
+     "note": "taker-buy 62.7%"
     }
    },
-   "equity": 31470.97,
-   "trades": 555,
-   "wins": 98
+   "equity": 31339.79,
+   "trades": 558,
+   "wins": 99
   },
   "CROWD_SURGE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.8003351895432734,
-    "entry": 81820.0,
-    "entry_t": 1791509100000,
-    "fee_in": 65.54897418261325,
-    "meta": {
-     "note": "crowd z=2.3"
-    }
-   },
-   "equity": 65635.5,
-   "trades": 245,
-   "wins": 53
+   "cash": 65941.28531748797,
+   "position": null,
+   "equity": 65941.29,
+   "trades": 246,
+   "wins": 54
   },
   "WICK_ABSORB": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.582579327972813,
-    "entry": 81820.16,
-    "entry_t": 1791509400000,
-    "fee_in": 47.71444827570374,
-    "meta": {
-     "note": "absorb 1.52x"
-    }
-   },
-   "equity": 47777.34,
-   "trades": 380,
-   "wins": 87
+   "cash": 47777.484512391646,
+   "position": null,
+   "equity": 47777.48,
+   "trades": 382,
+   "wins": 88
   },
   "ENTROPY_DRIFT": {
-   "cash": 85100.65652849551,
+   "cash": 84772.95234529831,
    "position": null,
-   "equity": 85100.66,
-   "trades": 82,
+   "equity": 84772.95,
+   "trades": 83,
    "wins": 20
   },
   "RANGE_COIL": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.7664731790257845,
-    "entry": 82010.01,
-    "entry_t": 1791511200000,
-    "fee_in": 62.92139447110748,
-    "meta": {
-     "note": "coil break",
-     "coil_low": 81950.0
-    }
-   },
-   "equity": 62858.47,
-   "trades": 199,
+   "cash": 62546.446786146604,
+   "position": null,
+   "equity": 62546.45,
+   "trades": 201,
    "wins": 29
   }
  }
