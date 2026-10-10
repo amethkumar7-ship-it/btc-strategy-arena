@@ -1,57 +1,6 @@
 [
  {
   "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78997.46,
-  "qty": 0.854359,
-  "time": 1787730000000,
-  "note": "taker-buy 58.2%"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 78893.33,
-  "qty": 1.119842,
-  "time": 1787731200000,
-  "pnl": -318.77,
-  "note": "below coil low"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78918.06,
-  "qty": 0.854359,
-  "time": 1787733300000,
-  "pnl": -202.82,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 78998.98,
-  "qty": 1.215596,
-  "time": 1787733600000,
-  "note": "crowd z=2.2"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 78919.13,
-  "qty": 1.215596,
-  "time": 1787733900000,
-  "pnl": -289.13,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78652.0,
-  "qty": 0.855535,
-  "time": 1787740200000,
-  "note": "taker-buy 57.0%"
- },
- {
-  "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 78258.74,
   "qty": 0.855535,
@@ -16998,5 +16947,56 @@
   "qty": 0.376168,
   "time": 1791572400000,
   "note": "taker-buy 59.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 82558.0,
+  "qty": 0.376168,
+  "time": 1791581700000,
+  "pnl": -52.3,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 82605.0,
+  "qty": 0.375203,
+  "time": 1791585000000,
+  "note": "taker-buy 58.2%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 82635.95,
+  "qty": 0.756135,
+  "time": 1791586500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 82627.49,
+  "qty": 0.756135,
+  "time": 1791586800000,
+  "pnl": -131.42,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 82630.0,
+  "qty": 0.574,
+  "time": 1791587100000,
+  "note": "absorb 1.50x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 82628.04,
+  "qty": 0.574,
+  "time": 1791587400000,
+  "pnl": -96.03,
+  "note": "upper wicks dominate"
  }
 ]
