@@ -1,57 +1,6 @@
 [
  {
   "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 79330.75,
-  "qty": 0.822837,
-  "time": 1787925300000,
-  "note": "taker-buy 57.4%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 79330.75,
-  "qty": 1.212084,
-  "time": 1787925300000,
-  "pnl": -299.98,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78934.09625,
-  "qty": 0.822837,
-  "time": 1787925600000,
-  "pnl": -456.67,
-  "note": "stop-loss -0.5%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 79477.66,
-  "qty": 1.207425,
-  "time": 1787927700000,
-  "note": "crowd z=2.3"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 79497.27,
-  "qty": 0.815374,
-  "time": 1787928600000,
-  "note": "taker-buy 56.3%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 79179.58,
-  "qty": 1.207425,
-  "time": 1787931000000,
-  "pnl": -551.57,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 79099.78365,
   "qty": 0.815374,
@@ -16998,5 +16947,55 @@
   "qty": 0.357262,
   "time": 1791746100000,
   "note": "taker-buy 62.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 83694.3,
+  "qty": 0.743644,
+  "time": 1791751500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 83634.52,
+  "qty": 0.743644,
+  "time": 1791751800000,
+  "pnl": -168.95,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 83612.01,
+  "qty": 0.357262,
+  "time": 1791752400000,
+  "pnl": -100.04,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 83510.0,
+  "qty": 0.356983,
+  "time": 1791755100000,
+  "note": "taker-buy 59.6%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 83554.32,
+  "qty": 0.560952,
+  "time": 1791755400000,
+  "note": "absorb 10.09x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 83606.01,
+  "qty": 0.777675,
+  "time": 1791756000000,
+  "note": "crowd z=3.0"
  }
 ]
