@@ -1,149 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78238.37,
-  "qty": 0.792899,
-  "time": 1788029100000,
-  "note": "taker-buy 60.4%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78202.0,
-  "qty": 0.792899,
-  "time": 1788032100000,
-  "pnl": -152.94,
-  "note": "tide flipped"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78146.78,
-  "qty": 1.106993,
-  "time": 1788042300000,
-  "note": "coil break"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78193.0,
-  "qty": 0.791405,
-  "time": 1788043500000,
-  "note": "taker-buy 58.9%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78230.0,
-  "qty": 0.791405,
-  "time": 1788047700000,
-  "pnl": -94.57,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 78284.84,
-  "qty": 1.211076,
-  "time": 1788048900000,
-  "note": "crowd z=4.6"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 78213.08,
-  "qty": 1.211076,
-  "time": 1788049200000,
-  "pnl": -276.53,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 78072.01,
-  "qty": 1.106993,
-  "time": 1788052200000,
-  "pnl": -255.79,
-  "note": "below coil low"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78112.57,
-  "qty": 1.104207,
-  "time": 1788054300000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 78081.5,
-  "qty": 0.984843,
-  "time": 1788054900000,
-  "note": "absorb 1.53x"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 78042.5,
-  "qty": 1.104207,
-  "time": 1788056700000,
-  "pnl": -249.89,
-  "note": "below coil low"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78168.0,
-  "qty": 0.790449,
-  "time": 1788060300000,
-  "note": "taker-buy 61.4%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78031.62,
-  "qty": 0.790449,
-  "time": 1788064500000,
-  "pnl": -231.33,
-  "note": "tide flipped"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78199.99,
-  "qty": 0.787171,
-  "time": 1788066000000,
-  "note": "taker-buy 59.6%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78122.01,
-  "qty": 0.787171,
-  "time": 1788068100000,
-  "pnl": -184.5,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 78126.23,
-  "qty": 0.984843,
-  "time": 1788068700000,
-  "pnl": -109.87,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78127.71,
-  "qty": 1.100797,
-  "time": 1788069000000,
-  "note": "coil break"
- },
- {
   "strategy": "RANGE_COIL",
   "side": "SELL",
   "price": 78119.23,
@@ -16997,5 +16853,149 @@
   "qty": 0.570267,
   "time": 1791853200000,
   "note": "absorb 2.70x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 82230.35184,
+  "qty": 0.354004,
+  "time": 1791855300000,
+  "pnl": 173.01,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 82230.35184,
+  "qty": 0.570267,
+  "time": 1791855300000,
+  "pnl": 278.71,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 82368.65,
+  "qty": 0.352704,
+  "time": 1791855600000,
+  "note": "taker-buy 67.5%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 82888.01,
+  "qty": 1.019448,
+  "time": 1791859200000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 82933.42,
+  "qty": 0.738601,
+  "time": 1791859800000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 83027.5992,
+  "qty": 0.352704,
+  "time": 1791860100000,
+  "pnl": 174.05,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 82874.04,
+  "qty": 1.019448,
+  "time": 1791861000000,
+  "pnl": -183.31,
+  "note": "entropy rose"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 82797.66,
+  "qty": 0.738601,
+  "time": 1791861300000,
+  "pnl": -222.74,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 83435.13,
+  "qty": 0.768818,
+  "time": 1791862200000,
+  "note": "crowd z=2.5"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 83435.13,
+  "qty": 0.731492,
+  "time": 1791862200000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 83389.05,
+  "qty": 0.350473,
+  "time": 1791864900000,
+  "note": "taker-buy 56.9%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 83515.04,
+  "qty": 0.560372,
+  "time": 1791866100000,
+  "note": "absorb 1.54x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 83764.35,
+  "qty": 0.560372,
+  "time": 1791868800000,
+  "pnl": 45.92,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 83592.01,
+  "qty": 0.768818,
+  "time": 1791872100000,
+  "pnl": -7.87,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 84056.1624,
+  "qty": 0.350473,
+  "time": 1791876900000,
+  "pnl": 175.09,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 84030.58,
+  "qty": 0.763277,
+  "time": 1791876900000,
+  "note": "crowd z=6.3"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 83855.39,
+  "qty": 0.35061,
+  "time": 1791877200000,
+  "note": "taker-buy 59.5%"
  }
 ]
