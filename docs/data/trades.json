@@ -1,57 +1,6 @@
 [
  {
   "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 78032.99,
-  "qty": 1.20584,
-  "time": 1788153300000,
-  "note": "crowd z=2.1"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78007.99,
-  "qty": 0.763024,
-  "time": 1788157500000,
-  "pnl": 173.76,
-  "note": "tide flipped"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78127.9,
-  "qty": 1.092719,
-  "time": 1788160200000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 78170.01,
-  "qty": 0.975374,
-  "time": 1788160500000,
-  "pnl": 356.34,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78286.35,
-  "qty": 0.758791,
-  "time": 1788160800000,
-  "note": "taker-buy 57.5%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78202.01,
-  "qty": 0.758791,
-  "time": 1788162600000,
-  "pnl": -182.8,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
   "side": "SELL",
   "price": 78108.93,
   "qty": 1.20584,
@@ -16999,5 +16948,56 @@
   "time": 1791978900000,
   "pnl": -34.2,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 81738.63,
+  "qty": 0.352009,
+  "time": 1791995100000,
+  "note": "taker-buy 57.7%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 81738.63,
+  "qty": 0.566906,
+  "time": 1791995100000,
+  "note": "absorb 2.04x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 81738.63,
+  "qty": 0.745624,
+  "time": 1791995100000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 82012.61,
+  "qty": 0.566906,
+  "time": 1791996900000,
+  "pnl": 62.44,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 81796.5,
+  "qty": 0.352009,
+  "time": 1791999300000,
+  "pnl": -37.22,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 81587.1,
+  "qty": 0.745624,
+  "time": 1792000500000,
+  "pnl": -234.83,
+  "note": "below coil low"
  }
 ]
