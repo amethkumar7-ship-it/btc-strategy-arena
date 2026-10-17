@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 80408.8952,
-  "qty": 1.167196,
-  "time": 1788448200000,
-  "pnl": -659.9,
-  "note": "stop-loss -0.5%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 80783.55,
-  "qty": 0.88836,
-  "time": 1788450300000,
-  "note": "absorb 1.77x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 81194.36976,
-  "qty": 0.695949,
-  "time": 1788450600000,
-  "pnl": 335.85,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 80996.06,
-  "qty": 1.01781,
-  "time": 1788453900000,
-  "note": "coil break"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 81109.5,
-  "qty": 0.695285,
-  "time": 1788455400000,
-  "note": "taker-buy 56.9%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 81151.1,
-  "qty": 0.695285,
-  "time": 1788457500000,
-  "pnl": -83.95,
-  "note": "tide flipped"
- },
- {
   "strategy": "WICK_ABSORB",
   "side": "SELL",
   "price": 81429.8184,
@@ -16998,5 +16947,56 @@
   "qty": 0.53453,
   "time": 1792257000000,
   "note": "absorb 1.64x"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 81518.75,
+  "qty": 0.71414,
+  "time": 1792260000000,
+  "note": "crowd z=2.8"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 81518.75,
+  "qty": 0.718025,
+  "time": 1792260000000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 81556.39,
+  "qty": 0.53453,
+  "time": 1792262100000,
+  "pnl": 53.15,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 81540.12,
+  "qty": 0.33314,
+  "time": 1792264800000,
+  "pnl": -43.99,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 81500.01,
+  "qty": 0.71414,
+  "time": 1792265100000,
+  "pnl": -129.86,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 81555.99,
+  "qty": 0.332409,
+  "time": 1792265400000,
+  "note": "taker-buy 61.8%"
  }
 ]
