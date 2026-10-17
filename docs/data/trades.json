@@ -1,14 +1,6 @@
 [
  {
   "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 80812.96,
-  "qty": 1.167196,
-  "time": 1788447600000,
-  "note": "crowd z=4.4"
- },
- {
-  "strategy": "CROWD_SURGE",
   "side": "SELL",
   "price": 80408.8952,
   "qty": 1.167196,
@@ -16998,5 +16990,13 @@
   "time": 1792246200000,
   "pnl": -129.63,
   "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 81294.02,
+  "qty": 0.53453,
+  "time": 1792257000000,
+  "note": "absorb 1.64x"
  }
 ]
