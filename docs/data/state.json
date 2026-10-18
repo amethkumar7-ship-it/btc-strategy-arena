@@ -7,52 +7,60 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-10-18T21:39:54.637217+00:00",
-  "last_candle": 1792359000000,
-  "last_price": 81037.63
+  "last_run": "2026-10-18T23:38:47.905730+00:00",
+  "last_candle": 1792366200000,
+  "last_price": 82162.5
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 26275.105717500006,
-   "position": null,
-   "equity": 26275.11,
-   "trades": 647,
-   "wins": 113
+   "cash": 0.0,
+   "position": {
+    "qty": 0.3219989454916737,
+    "entry": 81906.01,
+    "entry_t": 1792365600000,
+    "fee_in": 26.400048898328805,
+    "meta": {
+     "note": "taker-buy 58.6%"
+    }
+   },
+   "equity": 26456.24,
+   "trades": 648,
+   "wins": 114
   },
   "CROWD_SURGE": {
    "cash": 0.0,
    "position": {
-    "qty": 0.7174339499908295,
-    "entry": 80963.11,
-    "entry_t": 1792356900000,
-    "fee_in": 58.143827638480516,
+    "qty": 0.7111647369653943,
+    "entry": 82165.67,
+    "entry_t": 1792365900000,
+    "fee_in": 58.49181891204744,
     "meta": {
-     "note": "crowd z=2.0"
+     "note": "crowd z=3.3"
     }
    },
-   "equity": 58139.15,
-   "trades": 292,
-   "wins": 60
+   "equity": 58431.07,
+   "trades": 293,
+   "wins": 61
   },
   "WICK_ABSORB": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.5265708188184703,
-    "entry": 80995.14,
-    "entry_t": 1792357200000,
-    "fee_in": 42.692369559676315,
-    "meta": {
-     "note": "absorb 1.52x"
-    }
-   },
-   "equity": 42672.05,
-   "trades": 435,
-   "wins": 100
+   "cash": 42947.883733029936,
+   "position": null,
+   "equity": 42947.88,
+   "trades": 436,
+   "wins": 101
   },
   "ENTROPY_DRIFT": {
-   "cash": 83161.54679829125,
-   "position": null,
-   "equity": 83161.55,
+   "cash": 0.0,
+   "position": {
+    "qty": 1.0182192882461403,
+    "entry": 81591.84,
+    "entry_t": 1792361400000,
+    "fee_in": 83.16154679829125,
+    "meta": {
+     "note": "H=0.87 bits"
+    }
+   },
+   "equity": 83659.44,
    "trades": 93,
    "wins": 22
   },
