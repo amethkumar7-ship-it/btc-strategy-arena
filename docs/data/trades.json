@@ -2,57 +2,6 @@
  {
   "strategy": "TAKER_TIDE",
   "side": "BUY",
-  "price": 79511.6,
-  "qty": 0.648533,
-  "time": 1788941700000,
-  "note": "taker-buy 56.2%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 79567.31,
-  "qty": 1.106455,
-  "time": 1788942000000,
-  "note": "crowd z=2.2"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 79640.0,
-  "qty": 0.648533,
-  "time": 1788943200000,
-  "pnl": -20.0,
-  "note": "tide flipped"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "BUY",
-  "price": 79700.01,
-  "qty": 1.176714,
-  "time": 1788943800000,
-  "note": "H=0.87 bits"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "SELL",
-  "price": 79504.99,
-  "qty": 1.176714,
-  "time": 1788944700000,
-  "pnl": -416.92,
-  "note": "entropy rose"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 79487.96,
-  "qty": 1.106455,
-  "time": 1788945300000,
-  "pnl": -263.87,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
   "price": 79065.83,
   "qty": 0.651937,
   "time": 1788948900000,
@@ -16998,5 +16947,56 @@
   "time": 1792632900000,
   "pnl": -285.28,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 81907.47,
+  "qty": 0.300624,
+  "time": 1792662600000,
+  "note": "taker-buy 64.8%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 81998.69,
+  "qty": 0.493819,
+  "time": 1792663500000,
+  "note": "absorb 1.98x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 82069.87,
+  "qty": 0.300624,
+  "time": 1792664400000,
+  "pnl": -0.5,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 82069.87,
+  "qty": 0.692471,
+  "time": 1792664400000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 82045.69,
+  "qty": 0.692471,
+  "time": 1792664700000,
+  "pnl": -130.45,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 81750.01,
+  "qty": 0.493819,
+  "time": 1792670400000,
+  "pnl": -203.71,
+  "note": "upper wicks dominate"
  }
 ]
