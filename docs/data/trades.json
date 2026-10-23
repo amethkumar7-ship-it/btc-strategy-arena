@@ -2,108 +2,6 @@
  {
   "strategy": "WICK_ABSORB",
   "side": "BUY",
-  "price": 78262.19,
-  "qty": 0.857007,
-  "time": 1789008000000,
-  "note": "absorb 1.55x"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78512.82,
-  "qty": 1.013478,
-  "time": 1789009200000,
-  "note": "coil break"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 78325.34,
-  "qty": 1.013478,
-  "time": 1789010400000,
-  "pnl": -349.04,
-  "note": "below coil low"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78395.74,
-  "qty": 0.649035,
-  "time": 1789010700000,
-  "note": "taker-buy 56.9%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78345.17,
-  "qty": 0.649035,
-  "time": 1789015800000,
-  "pnl": -134.6,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 78400.0,
-  "qty": 0.857007,
-  "time": 1789016100000,
-  "pnl": -16.22,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78532.27,
-  "qty": 1.008787,
-  "time": 1789019400000,
-  "note": "coil break"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 78308.92,
-  "qty": 1.008787,
-  "time": 1789020600000,
-  "pnl": -383.61,
-  "note": "below coil low"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 78452.0,
-  "qty": 1.117119,
-  "time": 1789022700000,
-  "note": "crowd z=4.9"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 78260.86,
-  "qty": 1.117119,
-  "time": 1789023600000,
-  "pnl": -388.68,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78134.01,
-  "qty": 0.649489,
-  "time": 1789026600000,
-  "note": "taker-buy 59.0%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 78170.73,
-  "qty": 0.649489,
-  "time": 1789028700000,
-  "pnl": -77.72,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
   "price": 78170.73,
   "qty": 0.857802,
   "time": 1789028700000,
@@ -16997,5 +16895,108 @@
   "qty": 0.687406,
   "time": 1792719900000,
   "note": "crowd z=4.1"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 81356.7,
+  "qty": 0.687406,
+  "time": 1792720500000,
+  "pnl": -288.97,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 81346.0,
+  "qty": 0.299549,
+  "time": 1792721100000,
+  "note": "taker-buy 61.2%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 81428.01,
+  "qty": 0.489377,
+  "time": 1792721700000,
+  "pnl": -111.09,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 81895.79,
+  "qty": 0.681516,
+  "time": 1792722600000,
+  "note": "crowd z=2.6"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 81996.768,
+  "qty": 0.299549,
+  "time": 1792724100000,
+  "pnl": 145.98,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 81921.07,
+  "qty": 0.687525,
+  "time": 1792726800000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 82013.98,
+  "qty": 0.298887,
+  "time": 1792727400000,
+  "note": "taker-buy 57.6%"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 82013.98,
+  "qty": 1.012547,
+  "time": 1792727400000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 81843.8,
+  "qty": 0.681516,
+  "time": 1792728000000,
+  "pnl": -147.08,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 81805.16,
+  "qty": 0.687525,
+  "time": 1792728300000,
+  "pnl": -192.31,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 81756.0,
+  "qty": 0.298887,
+  "time": 1792728600000,
+  "pnl": -126.08,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 81698.01,
+  "qty": 1.012547,
+  "time": 1792729500000,
+  "pnl": -485.78,
+  "note": "entropy rose"
  }
 ]
