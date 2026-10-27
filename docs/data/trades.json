@@ -1,64 +1,5 @@
 [
  {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 78849.91,
-  "qty": 0.812932,
-  "time": 1789404300000,
-  "pnl": 327.35,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 78849.91,
-  "qty": 0.973457,
-  "time": 1789404300000,
-  "note": "coil break"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 78810.0,
-  "qty": 0.589342,
-  "time": 1789405200000,
-  "note": "taker-buy 59.4%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 79200.0,
-  "qty": 1.042364,
-  "time": 1789410000000,
-  "note": "crowd z=2.9"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 79014.86,
-  "qty": 1.042364,
-  "time": 1789412700000,
-  "pnl": -357.98,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 79136.0,
-  "qty": 0.589342,
-  "time": 1789414800000,
-  "pnl": 98.99,
-  "note": "tide flipped"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 79388.0,
-  "qty": 1.03539,
-  "time": 1789416900000,
-  "note": "crowd z=2.3"
- },
- {
   "strategy": "RANGE_COIL",
   "side": "SELL",
   "price": 79480.70928000001,
@@ -16998,5 +16939,64 @@
   "time": 1793107800000,
   "pnl": -570.38,
   "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 80315.0,
+  "qty": 0.663819,
+  "time": 1793108100000,
+  "note": "crowd z=2.6"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 80096.0,
+  "qty": 0.663819,
+  "time": 1793108700000,
+  "pnl": -251.91,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 80296.06,
+  "qty": 0.468908,
+  "time": 1793111100000,
+  "note": "absorb 1.98x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 80406.08,
+  "qty": 0.468908,
+  "time": 1793113200000,
+  "pnl": -23.8,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 80595.81,
+  "qty": 0.658384,
+  "time": 1793114400000,
+  "note": "crowd z=4.5"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 80588.94,
+  "qty": 0.664879,
+  "time": 1793117700000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 80516.01,
+  "qty": 0.658384,
+  "time": 1793119500000,
+  "pnl": -158.67,
+  "note": "lost 20-MA"
  }
 ]
