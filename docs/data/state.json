@@ -7,69 +7,45 @@
   "sl_pct": 0.005,
   "fee": 0.001,
   "started": "2026-08-08T02:58:39.549501+00:00",
-  "last_run": "2026-10-28T19:39:36.054317+00:00",
-  "last_candle": 1793215800000,
-  "last_price": 81332.01
+  "last_run": "2026-10-28T23:30:47.024019+00:00",
+  "last_candle": 1793229900000,
+  "last_price": 81358.0
  },
  "strategies": {
   "TAKER_TIDE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.25991482326249876,
-    "entry": 80740.01,
-    "entry_t": 1793195700000,
-    "fee_in": 21.006531961323706,
-    "meta": {
-     "note": "taker-buy 61.9%"
-    }
-   },
-   "equity": 21139.4,
-   "trades": 742,
-   "wins": 126
+   "cash": 20976.22856591427,
+   "position": null,
+   "equity": 20976.23,
+   "trades": 745,
+   "wins": 127
   },
   "CROWD_SURGE": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.6507345037153087,
-    "entry": 80958.56,
-    "entry_t": 1793210400000,
-    "fee_in": 52.735263626732774,
-    "meta": {
-     "note": "crowd z=11.8"
-    }
-   },
-   "equity": 52925.55,
-   "trades": 330,
-   "wins": 66
+   "cash": 53050.88460142088,
+   "position": null,
+   "equity": 53050.88,
+   "trades": 331,
+   "wins": 67
   },
   "WICK_ABSORB": {
    "cash": 0.0,
    "position": {
-    "qty": 0.46794389555965576,
-    "entry": 81133.05,
-    "entry_t": 1793214600000,
-    "fee_in": 38.00371919483116,
+    "qty": 0.4699243354138146,
+    "entry": 81274.66,
+    "entry_t": 1793226300000,
+    "fee_in": 38.23117175824199,
     "meta": {
-     "note": "absorb 1.52x"
+     "note": "absorb 3.01x"
     }
    },
-   "equity": 38058.82,
-   "trades": 491,
-   "wins": 111
+   "equity": 38232.1,
+   "trades": 492,
+   "wins": 112
   },
   "ENTROPY_DRIFT": {
-   "cash": 0.0,
-   "position": {
-    "qty": 0.993853244412685,
-    "entry": 81163.46,
-    "entry_t": 1793214900000,
-    "fee_in": 80.74531336212131,
-    "meta": {
-     "note": "H=0.87 bits"
-    }
-   },
-   "equity": 80832.08,
-   "trades": 103,
+   "cash": 80550.67247688802,
+   "position": null,
+   "equity": 80550.67,
+   "trades": 104,
    "wins": 23
   },
   "RANGE_COIL": {
