@@ -1,23 +1,6 @@
 [
  {
   "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 76360.93,
-  "qty": 1.01478,
-  "time": 1789690500000,
-  "pnl": -268.24,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "BUY",
-  "price": 76564.62,
-  "qty": 1.173564,
-  "time": 1789692600000,
-  "note": "H=0.87 bits"
- },
- {
-  "strategy": "CROWD_SURGE",
   "side": "BUY",
   "price": 76656.01,
   "qty": 1.008853,
@@ -16998,5 +16981,22 @@
   "qty": 0.47886,
   "time": 1793454000000,
   "note": "absorb 5.24x"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77481.56,
+  "qty": 0.47886,
+  "time": 1793459700000,
+  "pnl": -114.6,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77629.85,
+  "qty": 0.47699,
+  "time": 1793463300000,
+  "note": "absorb 2.03x"
  }
 ]
