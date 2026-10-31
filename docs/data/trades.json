@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 76310.59965,
-  "qty": 0.557194,
-  "time": 1789657500000,
-  "pnl": -298.96,
-  "note": "stop-loss -0.5%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 76516.22,
-  "qty": 0.554585,
-  "time": 1789659000000,
-  "note": "taker-buy 64.1%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 76731.47,
-  "qty": 0.554585,
-  "time": 1789661400000,
-  "pnl": 34.34,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 76753.46,
-  "qty": 0.821695,
-  "time": 1789664100000,
-  "note": "absorb 1.53x"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 76603.47,
-  "qty": 0.821695,
-  "time": 1789669800000,
-  "pnl": -249.32,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 76622.0,
-  "qty": 0.554268,
-  "time": 1789675500000,
-  "note": "taker-buy 57.5%"
- },
- {
   "strategy": "WICK_ABSORB",
   "side": "BUY",
   "price": 76622.0,
@@ -16998,5 +16947,55 @@
   "time": 1793409300000,
   "pnl": -15.47,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77385.25,
+  "qty": 0.268831,
+  "time": 1793412000000,
+  "pnl": -79.3,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77463.29,
+  "qty": 0.268023,
+  "time": 1793414100000,
+  "note": "taker-buy 58.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77241.96,
+  "qty": 0.268023,
+  "time": 1793419200000,
+  "pnl": -100.81,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77264.01,
+  "qty": 0.267411,
+  "time": 1793424000000,
+  "note": "taker-buy 62.4%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77377.9,
+  "qty": 0.68641,
+  "time": 1793426400000,
+  "note": "crowd z=3.0"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 77377.9,
+  "qty": 0.68138,
+  "time": 1793426400000,
+  "note": "coil break"
  }
 ]
