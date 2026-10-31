@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 76931.65,
-  "qty": 0.549405,
-  "time": 1789698300000,
-  "note": "taker-buy 61.7%"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "SELL",
-  "price": 76988.3,
-  "qty": 1.173564,
-  "time": 1789700100000,
-  "pnl": 316.92,
-  "note": "entropy rose"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 77269.25808,
-  "qty": 1.008853,
-  "time": 1789701000000,
-  "pnl": 463.31,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 77547.1032,
-  "qty": 0.549405,
-  "time": 1789701300000,
-  "pnl": 253.22,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "BUY",
-  "price": 77436.45,
-  "qty": 1.004662,
-  "time": 1789701300000,
-  "note": "crowd z=7.3"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 77331.69,
-  "qty": 0.549834,
-  "time": 1789701600000,
-  "note": "taker-buy 59.9%"
- },
- {
   "strategy": "CROWD_SURGE",
   "side": "SELL",
   "price": 77276.61,
@@ -16998,5 +16947,56 @@
   "time": 1793479800000,
   "pnl": -12.83,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77514.0,
+  "qty": 0.266402,
+  "time": 1793482200000,
+  "note": "taker-buy 63.9%"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "BUY",
+  "price": 77755.76,
+  "qty": 0.679768,
+  "time": 1793484000000,
+  "note": "crowd z=8.6"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 77677.0,
+  "qty": 0.47672,
+  "time": 1793485500000,
+  "pnl": -49.77,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "CROWD_SURGE",
+  "side": "SELL",
+  "price": 77598.01,
+  "qty": 0.679768,
+  "time": 1793486700000,
+  "pnl": -212.89,
+  "note": "lost 20-MA"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 77593.43,
+  "qty": 1.035261,
+  "time": 1793487900000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 77523.86,
+  "qty": 1.035261,
+  "time": 1793490000000,
+  "pnl": -232.69,
+  "note": "entropy rose"
  }
 ]
