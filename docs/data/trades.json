@@ -1,40 +1,5 @@
 [
  {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 81891.936,
-  "qty": 0.888971,
-  "time": 1789953600000,
-  "pnl": 432.68,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "CROWD_SURGE",
-  "side": "SELL",
-  "price": 81584.0,
-  "qty": 0.945745,
-  "time": 1789953900000,
-  "pnl": -69.2,
-  "note": "lost 20-MA"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 81490.28,
-  "qty": 0.891567,
-  "time": 1789962300000,
-  "note": "coil break"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 81388.0,
-  "qty": 0.891567,
-  "time": 1789962600000,
-  "pnl": -236.48,
-  "note": "below coil low"
- },
- {
   "strategy": "TAKER_TIDE",
   "side": "BUY",
   "price": 81426.57,
@@ -16998,5 +16963,39 @@
   "qty": 0.253975,
   "time": 1793724900000,
   "note": "taker-buy 56.9%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77674.19,
+  "qty": 0.253975,
+  "time": 1793729700000,
+  "pnl": -54.17,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 77773.98,
+  "qty": 0.253142,
+  "time": 1793737200000,
+  "note": "taker-buy 56.7%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 77830.31,
+  "qty": 0.253142,
+  "time": 1793743200000,
+  "pnl": -25.15,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 77846.6,
+  "qty": 0.453163,
+  "time": 1793746200000,
+  "note": "absorb 1.72x"
  }
 ]
