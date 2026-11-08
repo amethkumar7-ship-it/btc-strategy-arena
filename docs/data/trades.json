@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 83779.0,
-  "qty": 0.679749,
-  "time": 1790319900000,
-  "pnl": -400.42,
-  "note": "stop-loss -0.5%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 84121.75,
-  "qty": 0.471215,
-  "time": 1790323800000,
-  "note": "taker-buy 57.2%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 84794.724,
-  "qty": 0.471215,
-  "time": 1790328300000,
-  "pnl": 237.48,
-  "note": "take-profit +0.8%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 84699.05,
-  "qty": 0.671021,
-  "time": 1790332200000,
-  "note": "absorb 1.63x"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 84784.0,
-  "qty": 0.671021,
-  "time": 1790332800000,
-  "pnl": -56.78,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 85075.19,
-  "qty": 0.468723,
-  "time": 1790334300000,
-  "note": "taker-buy 56.1%"
- },
- {
   "strategy": "CROWD_SURGE",
   "side": "BUY",
   "price": 85075.19,
@@ -16998,5 +16947,56 @@
   "time": 1794164700000,
   "pnl": -13.43,
   "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 75606.95,
+  "qty": 0.645753,
+  "time": 1794174000000,
+  "pnl": -166.27,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 74468.01,
+  "qty": 0.439831,
+  "time": 1794178500000,
+  "note": "absorb 2.59x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 74792.01,
+  "qty": 0.229062,
+  "time": 1794178800000,
+  "note": "taker-buy 56.3%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 75063.75408,
+  "qty": 0.439831,
+  "time": 1794179400000,
+  "pnl": 196.23,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 75200.03,
+  "qty": 0.647949,
+  "time": 1794179400000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 75390.34607999999,
+  "qty": 0.229062,
+  "time": 1794179700000,
+  "pnl": 102.64,
+  "note": "take-profit +0.8%"
  }
 ]
