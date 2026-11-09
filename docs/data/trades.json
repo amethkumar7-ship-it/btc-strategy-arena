@@ -1,108 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83990.11,
-  "qty": 0.472987,
-  "time": 1790361000000,
-  "pnl": 17.57,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 83936.01,
-  "qty": 0.673605,
-  "time": 1790363100000,
-  "pnl": -44.36,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 84156.01,
-  "qty": 0.809521,
-  "time": 1790368500000,
-  "note": "coil break"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 84039.61,
-  "qty": 0.809521,
-  "time": 1790369100000,
-  "pnl": -230.45,
-  "note": "below coil low"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 83814.6,
-  "qty": 0.673232,
-  "time": 1790372400000,
-  "note": "absorb 2.37x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 84083.05,
-  "qty": 0.47152,
-  "time": 1790376900000,
-  "note": "taker-buy 62.1%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 84080.0,
-  "qty": 0.673232,
-  "time": 1790379600000,
-  "pnl": 65.59,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 84060.0,
-  "qty": 0.47152,
-  "time": 1790380800000,
-  "pnl": -90.19,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 84059.98,
-  "qty": 0.672047,
-  "time": 1790390700000,
-  "note": "absorb 2.95x"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 83948.0,
-  "qty": 0.471205,
-  "time": 1790394300000,
-  "note": "taker-buy 57.5%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 84001.99,
-  "qty": 0.672047,
-  "time": 1790395500000,
-  "pnl": -151.97,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83917.71,
-  "qty": 0.471205,
-  "time": 1790397300000,
-  "pnl": -93.41,
-  "note": "tide flipped"
- },
- {
   "strategy": "WICK_ABSORB",
   "side": "BUY",
   "price": 83978.55,
@@ -16998,5 +16895,108 @@
   "qty": 0.639087,
   "time": 1794189900000,
   "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 75276.01,
+  "qty": 0.226534,
+  "time": 1794192600000,
+  "pnl": -8.27,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 75098.0,
+  "qty": 0.639087,
+  "time": 1794193500000,
+  "pnl": -207.36,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 74958.01,
+  "qty": 0.22704,
+  "time": 1794198300000,
+  "note": "taker-buy 56.2%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 74583.21995,
+  "qty": 0.22704,
+  "time": 1794201300000,
+  "pnl": -119.06,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 74565.31,
+  "qty": 0.22664,
+  "time": 1794204000000,
+  "note": "taker-buy 62.0%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 74192.48345,
+  "qty": 0.22664,
+  "time": 1794206100000,
+  "pnl": -118.23,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 74109.18,
+  "qty": 0.226442,
+  "time": 1794212100000,
+  "note": "taker-buy 61.4%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 74702.05343999999,
+  "qty": 0.226442,
+  "time": 1794214800000,
+  "pnl": 100.54,
+  "note": "take-profit +0.8%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 74652.97,
+  "qty": 0.641611,
+  "time": 1794214800000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 74440.0,
+  "qty": 0.641611,
+  "time": 1794215400000,
+  "pnl": -232.35,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 74426.0,
+  "qty": 0.226827,
+  "time": 1794215700000,
+  "note": "taker-buy 57.0%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 74315.5,
+  "qty": 0.226827,
+  "time": 1794216300000,
+  "pnl": -58.82,
+  "note": "tide flipped"
  }
 ]
