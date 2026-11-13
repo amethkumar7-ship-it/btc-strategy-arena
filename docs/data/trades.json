@@ -1,108 +1,5 @@
 [
  {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83063.23,
-  "qty": 0.453491,
-  "time": 1790703900000,
-  "pnl": -163.79,
-  "note": "tide flipped"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 83428.01,
-  "qty": 0.450606,
-  "time": 1790705400000,
-  "note": "taker-buy 58.1%"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 83423.79,
-  "qty": 0.639391,
-  "time": 1790705700000,
-  "pnl": 50.58,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83599.89,
-  "qty": 0.450606,
-  "time": 1790709000000,
-  "pnl": 2.15,
-  "note": "tide flipped"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 83503.99,
-  "qty": 0.6375,
-  "time": 1790718900000,
-  "note": "absorb 2.32x"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 83742.88,
-  "qty": 0.794994,
-  "time": 1790722800000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 83810.0,
-  "qty": 0.6375,
-  "time": 1790723700000,
-  "pnl": 88.37,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 83583.87,
-  "qty": 0.794994,
-  "time": 1790726700000,
-  "pnl": -259.5,
-  "note": "below coil low"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 83408.01,
-  "qty": 0.795077,
-  "time": 1790740800000,
-  "note": "coil break"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 83370.01,
-  "qty": 0.450945,
-  "time": 1790742300000,
-  "note": "taker-buy 58.4%"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 83260.02,
-  "qty": 0.795077,
-  "time": 1790743500000,
-  "pnl": -250.24,
-  "note": "below coil low"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83210.01,
-  "qty": 0.450945,
-  "time": 1790744100000,
-  "pnl": -147.31,
-  "note": "tide flipped"
- },
- {
   "strategy": "RANGE_COIL",
   "side": "BUY",
   "price": 83292.01,
@@ -16998,5 +16895,108 @@
   "qty": 0.219307,
   "time": 1794585000000,
   "note": "taker-buy 62.4%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68507.99,
+  "qty": 0.219307,
+  "time": 1794586500000,
+  "pnl": -72.21,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 68422.91625,
+  "qty": 0.675506,
+  "time": 1794586500000,
+  "pnl": -324.98,
+  "note": "stop-loss -0.5%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 68860.09,
+  "qty": 0.669875,
+  "time": 1794589500000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 68731.62,
+  "qty": 0.218156,
+  "time": 1794589800000,
+  "note": "taker-buy 57.9%"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 68565.42,
+  "qty": 0.669875,
+  "time": 1794590400000,
+  "pnl": -289.5,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 68717.1,
+  "qty": 0.667061,
+  "time": 1794590700000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 68900.01,
+  "qty": 0.455545,
+  "time": 1794591300000,
+  "note": "absorb 1.52x"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68875.57,
+  "qty": 0.218156,
+  "time": 1794592800000,
+  "pnl": 1.37,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 68946.96,
+  "qty": 0.217495,
+  "time": 1794596400000,
+  "note": "taker-buy 57.4%"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 69014.01,
+  "qty": 0.455545,
+  "time": 1794601200000,
+  "pnl": -10.93,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68942.18,
+  "qty": 0.217495,
+  "time": 1794601500000,
+  "pnl": -31.04,
+  "note": "tide flipped"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 68458.01,
+  "qty": 0.667061,
+  "time": 1794604500000,
+  "pnl": -264.38,
+  "note": "below coil low"
  }
 ]
