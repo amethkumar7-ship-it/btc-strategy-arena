@@ -1,56 +1,5 @@
 [
  {
-  "strategy": "RANGE_COIL",
-  "side": "BUY",
-  "price": 83292.01,
-  "qty": 0.793183,
-  "time": 1790744400000,
-  "note": "coil break"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "BUY",
-  "price": 83383.97,
-  "qty": 0.639477,
-  "time": 1790745900000,
-  "note": "absorb 1.53x"
- },
- {
-  "strategy": "RANGE_COIL",
-  "side": "SELL",
-  "price": 83128.01,
-  "qty": 0.793183,
-  "time": 1790748600000,
-  "pnl": -262.15,
-  "note": "below coil low"
- },
- {
-  "strategy": "WICK_ABSORB",
-  "side": "SELL",
-  "price": 83160.04,
-  "qty": 0.639477,
-  "time": 1790749500000,
-  "pnl": -249.75,
-  "note": "upper wicks dominate"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 83247.09,
-  "qty": 0.449843,
-  "time": 1790752500000,
-  "note": "taker-buy 56.3%"
- },
- {
-  "strategy": "TAKER_TIDE",
-  "side": "SELL",
-  "price": 83046.0,
-  "qty": 0.449843,
-  "time": 1790758200000,
-  "pnl": -165.3,
-  "note": "tide flipped"
- },
- {
   "strategy": "CROWD_SURGE",
   "side": "BUY",
   "price": 83695.75,
@@ -16998,5 +16947,56 @@
   "time": 1794604500000,
   "pnl": -264.38,
   "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "BUY",
+  "price": 68314.0,
+  "qty": 0.459293,
+  "time": 1794614100000,
+  "note": "absorb 1.55x"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "BUY",
+  "price": 68368.01,
+  "qty": 0.666603,
+  "time": 1794614400000,
+  "note": "coil break"
+ },
+ {
+  "strategy": "RANGE_COIL",
+  "side": "SELL",
+  "price": 68183.63,
+  "qty": 0.666603,
+  "time": 1794616200000,
+  "pnl": -213.98,
+  "note": "below coil low"
+ },
+ {
+  "strategy": "WICK_ABSORB",
+  "side": "SELL",
+  "price": 68326.01,
+  "qty": 0.459293,
+  "time": 1794617400000,
+  "pnl": -57.27,
+  "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "BUY",
+  "price": 68389.33,
+  "qty": 0.218814,
+  "time": 1794620400000,
+  "note": "taker-buy 59.5%"
+ },
+ {
+  "strategy": "TAKER_TIDE",
+  "side": "SELL",
+  "price": 68304.02,
+  "qty": 0.218814,
+  "time": 1794621000000,
+  "pnl": -48.59,
+  "note": "tide flipped"
  }
 ]
