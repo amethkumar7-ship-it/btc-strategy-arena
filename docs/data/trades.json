@@ -1,23 +1,6 @@
 [
  {
   "strategy": "TAKER_TIDE",
-  "side": "BUY",
-  "price": 84094.44,
-  "qty": 0.440396,
-  "time": 1790851800000,
-  "note": "taker-buy 56.6%"
- },
- {
-  "strategy": "ENTROPY_DRIFT",
-  "side": "SELL",
-  "price": 83884.01,
-  "qty": 1.033926,
-  "time": 1790852700000,
-  "pnl": 13.21,
-  "note": "entropy rose"
- },
- {
-  "strategy": "TAKER_TIDE",
   "side": "SELL",
   "price": 83850.01,
   "qty": 0.440396,
@@ -16999,5 +16982,22 @@
   "time": 1794762000000,
   "pnl": -84.28,
   "note": "upper wicks dominate"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "BUY",
+  "price": 65151.99,
+  "qty": 1.218976,
+  "time": 1794776400000,
+  "note": "H=0.87 bits"
+ },
+ {
+  "strategy": "ENTROPY_DRIFT",
+  "side": "SELL",
+  "price": 64932.01,
+  "qty": 1.218976,
+  "time": 1794777600000,
+  "pnl": -426.8,
+  "note": "entropy rose"
  }
 ]
